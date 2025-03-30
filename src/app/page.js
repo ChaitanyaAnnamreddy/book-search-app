@@ -31,6 +31,7 @@ import {
 } from "@mui/icons-material";
 import AddIcon from "@mui/icons-material/Add";
 import { useTheme } from "@mui/material/styles";
+import { fetchBooks } from "../lib/bookService";
 
 function TablePaginationActions(props) {
   const theme = useTheme();
@@ -95,7 +96,7 @@ function TablePaginationActions(props) {
 }
 
 export default function Home() {
-  const [query, setQuery] = useState("");
+  const [query, setQuery] = useState(null);
   const [allBooks, setAllBooks] = useState([]);
   const [filteredBooks, setFilteredBooks] = useState([]);
   const [error, setError] = useState(null);
@@ -108,16 +109,13 @@ export default function Home() {
   const theme = useTheme();
 
   useEffect(() => {
-    const fetchBooks = async () => {
+    const fetchBookData = async () => {
       setLoading(true);
       try {
-        const res = await fetch(`/api/books`);
-        const data = await res.json();
-        if (data.error) {
-          setError(data.error);
-        } else {
-          setAllBooks(data.books);
-          setFilteredBooks(data.books);
+        const books = await fetchBooks();
+        if (books) {
+          setAllBooks(books);
+          setFilteredBooks(books);
         }
       } catch (err) {
         console.error("Error fetching books:", err);
@@ -125,8 +123,9 @@ export default function Home() {
       }
       setLoading(false);
     };
-    fetchBooks();
-  }, []);
+
+    fetchBookData();
+  }, []); 
 
   const handleSearch = () => {
     if (!query.trim()) {
@@ -220,7 +219,7 @@ export default function Home() {
           <TextField
             label="Search by title"
             variant="outlined"
-            value={query}
+            value={query || ""}
             size="small"
             onChange={handleChange}
             onKeyPress={handleKeyPress}
@@ -276,9 +275,9 @@ export default function Home() {
       )}
 
       <TableContainer component={Paper} sx={{ mt: 3 }}>
-        <Table >
+        <Table>
           <TableHead sx={{ backgroundColor: "#f5f5f5" }}>
-            <TableRow >
+            <TableRow>
               <TableCell sx={{ width: "50%" }}>
                 <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
                   <strong>Title</strong>
@@ -305,12 +304,28 @@ export default function Home() {
                   </IconButton>
                 </Box>
               </TableCell>
+              <TableCell>
+                <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+                  <strong>Rating</strong>
+                  <IconButton onClick={() => handleSort("rating")} size="small">
+                    {sortConfig.key === "rating" &&
+                    sortConfig.direction === "asc" ? (
+                      <ArrowUpwardOutlined fontSize="inherit" />
+                    ) : (
+                      <ArrowDownwardOutlined fontSize="inherit" />
+                    )}
+                  </IconButton>
+                </Box>
+              </TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
             {loading ? (
               Array.from(new Array(rowsPerPage)).map((_, index) => (
                 <TableRow key={index}>
+                  <TableCell>
+                    <Skeleton variant="text" />
+                  </TableCell>
                   <TableCell>
                     <Skeleton variant="text" />
                   </TableCell>
@@ -333,11 +348,12 @@ export default function Home() {
                   >
                     <TableCell>{book.title}</TableCell>
                     <TableCell>{book.author}</TableCell>
+                    <TableCell>{book.rating}</TableCell>
                   </TableRow>
                 ))
             ) : (
               <TableRow sx={{ height: "50vh" }}>
-                <TableCell colSpan={2} align="center">
+                <TableCell colSpan={3} align="center">
                   <Box
                     sx={{
                       display: "flex",

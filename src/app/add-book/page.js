@@ -10,15 +10,25 @@ import {
 } from "@mui/material";
 import { useRouter } from "next/navigation";
 import { Card } from "antd";
+import StarIcon from "@mui/icons-material/Star";
+import StarBorderIcon from "@mui/icons-material/StarBorder";
 
 export default function AddBook() {
   const [title, setTitle] = useState("");
   const [author, setAuthor] = useState("");
   const [image, setImage] = useState("");
+  const [rating, setRating] = useState("");
+  const [synopsis, setSynopsis] = useState("");
   const [openSnackbar, setOpenSnackbar] = useState(false);
-  const [snackbarMessage, setSnackbarMessage] = useState("");
+  const [snackbarMessage, setSnackbarMessage] = useState(null);
   const [snackbarSeverity, setSnackbarSeverity] = useState("success");
-  const [errors, setErrors] = useState({ title: "", author: "", image: "" });
+  const [errors, setErrors] = useState({
+    title: null,
+    author: null,
+    image: null,
+    rating: null,
+    synopsis: null,
+  });
   const router = useRouter();
 
   const fetchBooks = async () => {
@@ -37,7 +47,13 @@ export default function AddBook() {
 
   const validateFields = () => {
     let isValid = true;
-    const newErrors = { title: "", author: "", image: "" };
+    const newErrors = {
+      title: null,
+      author: null,
+      image: null,
+      rating: null,
+      synopsis: null,
+    };
 
     if (!title.trim()) {
       newErrors.title = "Title field should not be empty";
@@ -47,8 +63,12 @@ export default function AddBook() {
       newErrors.author = "Author field should not be empty";
       isValid = false;
     }
-    if (!image.trim()) {
-      newErrors.image = "Image URL field should not be empty";
+    if (!rating.trim()) {
+      newErrors.rating = "Rating field should not be empty";
+      isValid = false;
+    }
+    if (!synopsis.trim()) {
+      newErrors.synopsis = "Synopsis field should not be empty";
       isValid = false;
     }
 
@@ -72,7 +92,14 @@ export default function AddBook() {
     const res = await fetch("/api/add-book", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ id: newId, title, author, image }),
+      body: JSON.stringify({
+        id: newId,
+        title,
+        author,
+        image,
+        rating,
+        synopsis,
+      }),
     });
 
     if (res.ok) {
@@ -82,7 +109,15 @@ export default function AddBook() {
       setTitle("");
       setAuthor("");
       setImage("");
-      setErrors({ title: "", author: "", image: "" });
+      setRating("");
+      setSynopsis("");
+      setErrors({
+        title: null,
+        author: null,
+        image: null,
+        rating: null,
+        synopsis: null,
+      });
     } else {
       setSnackbarMessage("Error adding book");
       setSnackbarSeverity("error");
@@ -94,6 +129,16 @@ export default function AddBook() {
     setOpenSnackbar(false);
   };
 
+  const renderStars = (rating) => {
+    const stars = [];
+    for (let i = 1; i <= 5; i++) {
+      stars.push(
+        i <= rating ? <StarIcon key={i} /> : <StarBorderIcon key={i} />
+      );
+    }
+    return stars;
+  };
+
   return (
     <>
       <Card
@@ -101,7 +146,7 @@ export default function AddBook() {
         style={{
           width: "100%",
           margin: "100px auto",
-          maxWidth: 800, // Optional: cap width on large screens
+          maxWidth: 800,
         }}
       >
         <Box sx={{ p: { xs: 2, sm: 3 } }}>
@@ -123,6 +168,31 @@ export default function AddBook() {
             error={!!errors.author}
             helperText={errors.author}
           />
+          <Box display="flex" alignItems="center" sx={{ mb: 2 }}>
+            <TextField
+              label="Rating (1-5)"
+              fullWidth
+              value={rating}
+              onChange={(e) => {
+                let value = e.target.value;
+                if (value === "") {
+                  setRating("");
+                  return;
+                }
+                let num = parseFloat(value);
+                if (num >= 1 && num <= 5) {
+                  setRating(value);
+                }
+              }}
+              error={!!errors.rating}
+              helperText={errors.rating}
+              type="number"
+              inputProps={{ min: 1, max: 5, step: "0.5" }}
+            />
+            <Box display="flex" ml={2}>
+              {renderStars(rating)}
+            </Box>
+          </Box>
           <TextField
             label="Image URL"
             fullWidth
@@ -131,6 +201,15 @@ export default function AddBook() {
             sx={{ mb: 2 }}
             error={!!errors.image}
             helperText={errors.image}
+          />
+          <TextField
+            label="Synopsis"
+            fullWidth
+            value={synopsis}
+            onChange={(e) => setSynopsis(e.target.value)}
+            sx={{ mb: 2 }}
+            error={!!errors.synopsis}
+            helperText={errors.synopsis}
           />
           <Box
             sx={{

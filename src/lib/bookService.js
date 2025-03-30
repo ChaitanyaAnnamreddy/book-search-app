@@ -1,6 +1,8 @@
+import { API_BASE_URL } from "../constants";
+
 export const fetchBookById = async (id) => {
   try {
-    const res = await fetch(`/api/books?query=${id}`, {
+    const res = await fetch(`${API_BASE_URL}?query=${id}`, {
       cache: "no-store",
     });
     const data = await res.json();
@@ -14,5 +16,19 @@ export const fetchBookById = async (id) => {
   } catch (error) {
     console.error("Error fetching book:", error);
     return null;
+  }
+};
+
+export const fetchBooks = async () => {
+  try {
+    const res = await fetch(`${API_BASE_URL}`);
+    const data = await res.json();
+    if (data.error) {
+      throw new Error(data.error);
+    }
+    return data.books;
+  } catch (err) {
+    console.error("Error fetching books:", err);
+    return [];
   }
 };
