@@ -85,10 +85,8 @@ export default function BookDetails() {
           style={{ width: 350, margin: "50px 20px", textAlign: "center" }}
           cover={
             book.image ? (
-              // Display book cover image if available
               <Image alt={book.title} src={book.image} preview={false} />
             ) : (
-              // Show the first letter of the book title as a fallback avatar
               <Avatar
                 size={300}
                 style={{
@@ -105,18 +103,31 @@ export default function BookDetails() {
             )
           }
         >
-          {/* Tooltip helps display the full title if it's long */}
           <Tooltip title={book.title}>
             <Meta title={book.title} sx={{ m: 1 }} />
           </Tooltip>
-          <Meta description={book.author} />
 
-          {/* Display star rating */}
+          <Meta description={book.author} />
           <Box display="flex" justifyContent="center" alignItems="center" m={1}>
             {renderStars(book.rating)}
           </Box>
-
-          <Meta description={book.synopsis} />
+          <Tooltip title={book.synopsis}>
+            <Meta
+              description={
+                <div
+                  style={{
+                    display: "-webkit-box",
+                    WebkitLineClamp: 2,
+                    WebkitBoxOrient: "vertical",
+                    overflow: "hidden",
+                    textOverflow: "ellipsis",
+                  }}
+                >
+                  {book.synopsis}
+                </div>
+              }
+            />
+          </Tooltip>
         </Card>
       </Box>
     </Container>

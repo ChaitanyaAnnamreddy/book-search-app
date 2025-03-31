@@ -53,7 +53,7 @@
     "author": "J.D. Salinger",
     "rating": 4.0,
     "synopsis": "The novel follows Holden Caulfield, a teenager who has just been expelled from his prep school. Disillusioned and struggling with the phoniness of the adult world, Holden recounts his experiences over a few days in New York City, revealing his inner turmoil and quest for authenticity.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/3/32/Rye_catcher.jpg"
+    "image": "https://images.penguinrandomhouse.com/cover/9780140447937"
   },
   {
     "id": 8,
@@ -77,7 +77,7 @@
     "author": "Charlotte Brontë",
     "rating": 4.2,
     "synopsis": "Orphaned and mistreated, Jane Eyre grows up to become a governess at Thornfield Hall, where she falls in love with the mysterious and brooding Mr. Rochester. As secrets from his past come to light, Jane must navigate her feelings and moral convictions to find her own path to happiness and independence.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Jane_Eyre_title_page.jpg"
+    "image": "https://images.penguinrandomhouse.com/cover/9780140447937"
   },
   {
     "id": 11,
@@ -85,7 +85,7 @@
     "author": "Emily Brontë",
     "rating": 4.0,
     "synopsis": "The passionate and tumultuous love story of Heathcliff and Catherine Earnshaw unfolds on the Yorkshire moors. Their intense relationship, marked by obsession and revenge, affects everyone around them, leading to a cycle of suffering and tragedy that spans generations.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Wuthering_Heights.jpg"
+    "image": "https://images.penguinrandomhouse.com/cover/9780140447937"
   },
   {
     "id": 12,
@@ -221,7 +221,7 @@
     "author": "Suzanne Collins",
     "rating": 4.3,
     "synopsis": "In a dystopian future, the totalitarian nation of Panem forces its 12 districts to send a boy and a girl to compete in the Hunger Games, a televised fight to the death. Katniss Everdeen volunteers to take her sister's place, facing challenges that test her survival skills and humanity.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/4/42/The_Hunger_Games_cover.jpg"
+    "image": "https://images.penguinrandomhouse.com/cover/9780430000000"
   },
   {
     "id": 29,
@@ -253,7 +253,7 @@
     "author": "J.K. Rowling",
     "rating": 4.5,
     "synopsis": "Harry Potter competes in the Triwizard Tournament, facing dangerous tasks and uncovering dark secrets. The return of Voldemort marks a turning point in Harry's journey, leading to greater challenges and battles.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/9/9b/Harry_Potter_and_the_Goblet_of_Fire.jpg"
+    "image": "https://images.penguinrandomhouse.com/cover/9780430000000"
   },
   {
     "id": 33,
@@ -269,7 +269,7 @@
     "author": "J.K. Rowling",
     "rating": 4.5,
     "synopsis": "Harry Potter uncovers secrets about Voldemort's past and learns about the Horcruxes, objects that hold pieces of Voldemort's soul. As the battle against dark forces intensifies, Harry faces loss and prepares for the final confrontation.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/6/6f/Harry_Potter_and_the_Half-Blood_Prince.jpg"
+    "image": "https://images.penguinrandomhouse.com/cover/9780430000000"
   },
   {
     "id": 35,
@@ -285,7 +285,7 @@
     "author": "C.S. Lewis",
     "rating": 4.3,
     "synopsis": "Four siblings discover the magical land of Narnia through a wardrobe. They join forces with Aslan, the great lion, to fight against the White Witch and restore peace to Narnia.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/8/86/The_Lion%2C_the_Witch_and_the_Wardrobe_%281st_edition%29.jpg"
+    "image": "https://images.penguinrandomhouse.com/cover/9780430000000"
   },
   {
     "id": 37,
@@ -293,7 +293,7 @@
     "author": "C.S. Lewis",
     "rating": 4.2,
     "synopsis": "The Pevensie siblings return to Narnia to help Prince Caspian fight against his evil uncle, King Miraz, and restore peace to the land.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/7/7e/Prince_Caspian_book_cover.jpg"
+    "image": "https://images.penguinrandomhouse.com/cover/9780430000000"
   },
   {
     "id": 38,
@@ -301,7 +301,7 @@
     "author": "C.S. Lewis",
     "rating": 4.2,
     "synopsis": "Lucy and Edmund Pevensie, along with their cousin Eustace, join Prince Caspian on a voyage to the edge of the world aboard the Dawn Treader.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/b/b4/Voyage_of_the_dawn_treader.jpg"
+    "image": "https://images.penguinrandomhouse.com/cover/9780430000000"
   },
   {
     "id": 39,
@@ -309,7 +309,7 @@
     "author": "C.S. Lewis",
     "rating": 4.2,
     "synopsis": "Eustace Scrubb and Jill Pole are sent to Narnia to rescue Prince Rilian, who has been enchanted and imprisoned by the evil Lady of the Green Kirtle.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/4/4e/The_Silver_Chair_%281953%29.png"
+    "image": "https://images.penguinrandomhouse.com/cover/9780430000000"
   },
   {
     "id": 40,
@@ -317,7 +317,7 @@
     "author": "C.S. Lewis",
     "rating": 4.2,
     "synopsis": "Shasta, a young boy, and Bree, a talking horse, embark on a journey to Narnia to escape their lives in Calormen and warn of an impending invasion.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/5/5b/The_Horse_and_His_Boy_%281954%29.png"
+    "image": "https://images.penguinrandomhouse.com/cover/9780430000000"
   },
   {
     "id": 41,
@@ -325,7 +325,7 @@
     "author": "C.S. Lewis",
     "rating": 4.2,
     "synopsis": "Digory Kirke and Polly Plummer discover the origins of Narnia and witness its creation by Aslan, the great lion.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/8/86/The_Magician%27s_Nephew_%281955%29.png"
+    "image": "https://images.penguinrandomhouse.com/cover/9780430000000"
   },
   {
     "id": 42,
@@ -333,7 +333,7 @@
     "author": "C.S. Lewis",
     "rating": 4.2,
     "synopsis": "In the final battle for Narnia, King Tirian and his friends fight against the forces of evil to save their beloved land.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/8/8b/The_Last_Battle_%281956%29.png"
+    "image": "https://images.penguinrandomhouse.com/cover/9780430000000"
   },
   {
     "id": 43,
@@ -357,7 +357,7 @@
     "author": "Rick Riordan",
     "rating": 4.4,
     "synopsis": "Percy Jackson and his friends embark on a quest to rescue the goddess Artemis and save their friend Annabeth from the clutches of the Titan Atlas.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/6/6b/The_Titan%27s_Curse.jpg"
+    "image": "https://images.penguinrandomhouse.com/cover/9780430000000"
   },
   {
     "id": 46,
@@ -389,7 +389,7 @@
     "author": "James Dashner",
     "rating": 4.0,
     "synopsis": "Thomas and his friends face new challenges in a post-apocalyptic world as they search for answers and a way to survive.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/6/62/The_Scorch_Trials_cover.jpg"
+    "image": "https://images.penguinrandomhouse.com/cover/9780430000000"
   },
   {
     "id": 50,
@@ -397,7 +397,7 @@
     "author": "James Dashner",
     "rating": 4.0,
     "synopsis": "Thomas and his friends must navigate a deadly maze of trials to find a cure for the Flare virus and save humanity.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/6/6b/The_Death_Cure.jpg"
+    "image": "https://images.penguinrandomhouse.com/cover/9780430000000"
   },
   {
     "id": 51,
@@ -405,7 +405,7 @@
     "author": "Frank Herbert",
     "rating": 4.2,
     "synopsis": "Paul Atreides leads a rebellion on the desert planet Arrakis to control the valuable spice melange and fulfill his destiny.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/5/51/Dune_first_edition.jpg"
+    "image": "https://images.penguinrandomhouse.com/cover/9780430000000"
   },
   {
     "id": 52,
@@ -413,7 +413,7 @@
     "author": "Frank Herbert",
     "rating": 4.1,
     "synopsis": "Paul Atreides struggles to maintain control of the empire he has built and faces new challenges and betrayals.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/8/8e/Dune_Messiah_first_edition.jpg"
+    "image": "https://images.penguinrandomhouse.com/cover/9780430000000"
   },
   {
     "id": 53,
@@ -421,7 +421,7 @@
     "author": "Frank Herbert",
     "rating": 4.1,
     "synopsis": "The children of Paul Atreides must navigate political intrigue and danger as they come into their own and shape the future of the empire.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/5/5e/Children_of_Dune-Frank_Herbert_%281976%29_First_edition.jpg"
+    "image": "https://images.penguinrandomhouse.com/cover/9780430000000"
   },
   {
     "id": 54,
@@ -429,7 +429,7 @@
     "author": "Isaac Asimov",
     "rating": 4.2,
     "synopsis": "A group of scientists and scholars work to preserve knowledge and culture in the face of a collapsing galactic empire.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/2/25/Foundation_gnome.jpg"
+    "image": "https://images.penguinrandomhouse.com/cover/9780430000000"
   },
   {
     "id": 55,
@@ -437,7 +437,7 @@
     "author": "Isaac Asimov",
     "rating": 4.2,
     "synopsis": "The Foundation faces new threats from the remnants of the old empire and a mysterious new force known as the Mule.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/1/1e/Foundation_and_Empire.jpg"
+    "image": "https://images.penguinrandomhouse.com/cover/9780430000000"
   },
   {
     "id": 56,
@@ -445,7 +445,7 @@
     "author": "Isaac Asimov",
     "rating": 4.3,
     "synopsis": "Following the fall of the First Foundation, the Mule searches for the elusive Second Foundation to destroy it. Meanwhile, a young girl named Arkady Darell holds a secret that could change the fate of the galaxy.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/1/1e/Foundation_and_Empire.jpg"
+    "image": "https://images.penguinrandomhouse.com/cover/9780430000000"
   },
   {
     "id": 57,
@@ -453,7 +453,7 @@
     "author": "Isaac Asimov",
     "rating": 4.3,
     "synopsis": "A collection of short stories exploring the interactions between humans and robots, governed by Asimov's Three Laws of Robotics.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/4/45/I_Robot_-_Runaround.jpg"
+    "image": "https://images.penguinrandomhouse.com/cover/9780430000000"
   },
   {
     "id": 58,
@@ -461,7 +461,7 @@
     "author": "Neil Gaiman & Terry Pratchett",
     "rating": 4.3,
     "synopsis": "An angel and a demon team up to prevent the apocalypse, forming an unlikely alliance to find the missing Antichrist and stop Armageddon.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/4/4f/GoodOmensCover.jpg"
+    "image": "https://images.penguinrandomhouse.com/cover/9780430000000"
   },
   {
     "id": 59,
@@ -469,7 +469,7 @@
     "author": "Neil Gaiman",
     "rating": 4.3,
     "synopsis": "Ex-convict Shadow Moon roams a world he doesn't understand, left adrift by the recent, tragic death of his wife. His life changes after meeting Mr. Wednesday, who offers him a job as his bodyguard.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/0/0b/American_Gods.jpg"
+    "image": "https://images.penguinrandomhouse.com/cover/9780430000000"
   },
   {
     "id": 60,
@@ -477,7 +477,7 @@
     "author": "Neil Gaiman",
     "rating": 4.3,
     "synopsis": "Richard Mayhew's life changes after helping a bleeding girl named Door, leading him into the dangers and wonders of London Below.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/4/4b/Neverwhere.jpg"
+    "image": "https://images.penguinrandomhouse.com/cover/9780430000000"
   },
   {
     "id": 61,

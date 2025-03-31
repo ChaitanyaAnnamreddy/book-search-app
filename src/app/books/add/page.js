@@ -1,4 +1,5 @@
 "use client";
+
 import { useState } from "react";
 import {
   TextField,
@@ -23,6 +24,8 @@ export default function AddBook() {
   const [openSnackbar, setOpenSnackbar] = useState(false);
   const [snackbarMessage, setSnackbarMessage] = useState(null);
   const [snackbarSeverity, setSnackbarSeverity] = useState("success");
+
+  // State to manage validation errors
   const [errors, setErrors] = useState({
     title: null,
     author: null,
@@ -30,8 +33,10 @@ export default function AddBook() {
     rating: null,
     synopsis: null,
   });
+
   const router = useRouter();
 
+  // Fetch existing books from the API
   const fetchBooks = async () => {
     try {
       const res = await fetch(API_BASE_URL, { cache: "no-store" });
@@ -46,6 +51,7 @@ export default function AddBook() {
     }
   };
 
+  // Validate form fields before submission
   const validateFields = () => {
     let isValid = true;
     const newErrors = {
@@ -77,19 +83,21 @@ export default function AddBook() {
     return isValid;
   };
 
+  // Handle book submission
   const handleAddBook = async () => {
     if (!validateFields()) {
       setSnackbarMessage("Please fill in all required fields");
       setSnackbarSeverity("error");
       setOpenSnackbar(true);
-
       return;
     }
 
+    // Generate a unique ID for the new book
     const books = await fetchBooks();
     const newId =
       books.length > 0 ? Math.max(...books.map((book) => book.id)) + 1 : 1;
 
+    // Send book data to the API
     const res = await fetch(API_ADD_BOOK_URL, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -119,6 +127,7 @@ export default function AddBook() {
         rating: null,
         synopsis: null,
       });
+
       setTimeout(() => router.push("/"), 2000);
     } else {
       setSnackbarMessage("Error adding book");
@@ -127,10 +136,12 @@ export default function AddBook() {
     }
   };
 
+  // Close snackbar notification
   const handleCloseSnackbar = () => {
     setOpenSnackbar(false);
   };
 
+  // Render star icons based on rating
   const renderStars = (rating) => {
     const stars = [];
     for (let i = 1; i <= 5; i++) {
@@ -143,6 +154,7 @@ export default function AddBook() {
 
   return (
     <>
+      {/* Card for adding a book */}
       <Card
         title="Add a Book"
         style={{
@@ -152,6 +164,7 @@ export default function AddBook() {
         }}
       >
         <Box sx={{ p: { xs: 2, sm: 3 } }}>
+          {/* Title input field */}
           <TextField
             label="Title"
             fullWidth
@@ -161,6 +174,8 @@ export default function AddBook() {
             error={!!errors.title}
             helperText={errors.title}
           />
+
+          {/* Author input field */}
           <TextField
             label="Author"
             fullWidth
@@ -170,6 +185,8 @@ export default function AddBook() {
             error={!!errors.author}
             helperText={errors.author}
           />
+
+          {/* Rating input field with stars */}
           <Box display="flex" alignItems="center" sx={{ mb: 2 }}>
             <TextField
               label="Rating (1-5)"
@@ -195,6 +212,8 @@ export default function AddBook() {
               {renderStars(rating)}
             </Box>
           </Box>
+
+          {/* Image URL input field */}
           <TextField
             label="Image URL"
             fullWidth
@@ -204,9 +223,13 @@ export default function AddBook() {
             error={!!errors.image}
             helperText={errors.image}
           />
+
+          {/* Synopsis input field */}
           <TextField
             label="Synopsis"
             fullWidth
+            multiline
+            rows={3}
             value={synopsis}
             onChange={(e) => setSynopsis(e.target.value)}
             sx={{ mb: 2 }}

@@ -49,94 +49,92 @@ export default function Home() {
 
   // Fetches book data when the component mounts
   useEffect(() => {
-    // Async function to fetch books from the bookService
     const fetchBookData = async () => {
-      setLoading(true); // Sets loading state to true while fetching
+      setLoading(true);
       try {
-        const books = await fetchBooks(); // Calls external service to get book data
+        const books = await fetchBooks();
         if (books) {
-          setAllBooks(books); // Stores all books in state
-          setFilteredBooks(books); // Initializes filtered books with all books
+          setAllBooks(books);
+          setFilteredBooks(books);
         }
       } catch (err) {
         console.error("Error fetching books:", err);
-        setError("Failed to fetch books"); // Sets error message if fetch fails
+        setError("Failed to fetch books");
       }
-      setLoading(false); // Sets loading state to false after fetch completes
+      setLoading(false);
     };
 
-    fetchBookData(); // Invokes the fetch function
-  }, []); // Empty dependency array ensures this runs only on mount
+    fetchBookData();
+  }, []);
 
   // Filters books based on the search query
   const handleSearch = () => {
     if (!query.trim()) {
-      setFilteredBooks(allBooks); // Resets to all books if query is empty
-      setPage(0); // Resets pagination to the first page
+      setFilteredBooks(allBooks);
+      setPage(0);
       return;
     }
-    const filtered = allBooks.filter(
-      (book) => book.title.toLowerCase().includes(query.toLowerCase()) // Case-insensitive title search
+    const filtered = allBooks.filter((book) =>
+      book.title.toLowerCase().includes(query.toLowerCase())
     );
-    setFilteredBooks(filtered); // Updates filtered books state
-    setPage(0); // Resets pagination to the first page
+    setFilteredBooks(filtered);
+    setPage(0);
   };
 
   // Triggers search when the Enter key is pressed
   const handleKeyPress = (event) => {
     if (event.key === "Enter") {
-      handleSearch(); // Calls the search function
+      handleSearch();
     }
   };
 
   // Updates the query state as the user types
   const handleChange = (event) => {
-    setQuery(event.target.value); // Updates query state with input value
+    setQuery(event.target.value);
     if (!event.target.value.trim()) {
-      setFilteredBooks(allBooks); // Resets to all books if input is cleared
-      setPage(0); // Resets pagination to the first page
+      setFilteredBooks(allBooks);
+      setPage(0);
     }
   };
 
   // Clears the search query and resets the book list
   const handleClear = () => {
-    setQuery(""); // Clears the query input
-    setFilteredBooks(allBooks); // Resets filtered books to all books
-    setPage(0); // Resets pagination to the first page
+    setQuery("");
+    setFilteredBooks(allBooks);
+    setPage(0);
   };
 
   // Changes the current page in the pagination
   const handlePageChange = (_, newPage) => {
-    setPage(newPage); // Updates the page state to the new page number
+    setPage(newPage);
   };
 
   // Updates the number of rows per page and resets to the first page
   const handleRowsPerPageChange = (event) => {
-    setRowsPerPage(parseInt(event.target.value, 10)); // Updates rows per page
-    setPage(0); // Resets pagination to the first page
+    setRowsPerPage(parseInt(event.target.value, 10));
+    setPage(0);
   };
 
   // Sorts the book list based on the selected column (title, author, rating)
   const handleSort = (key) => {
-    let direction = "asc"; // Default sort direction is ascending
+    let direction = "asc";
     if (sortConfig.key === key && sortConfig.direction === "asc") {
-      direction = "desc"; // Toggles to descending if already ascending
+      direction = "desc";
     }
-    setSortConfig({ key, direction }); // Updates sort configuration
+    setSortConfig({ key, direction });
 
     const sortedBooks = [...filteredBooks].sort((a, b) => {
       if (a[key] < b[key]) {
-        return direction === "asc" ? -1 : 1; // Sorts ascending or descending
+        return direction === "asc" ? -1 : 1;
       }
       if (a[key] > b[key]) {
-        return direction === "asc" ? 1 : -1; // Sorts ascending or descending
+        return direction === "asc" ? 1 : -1;
       }
-      return 0; // No change if equal
+      return 0;
     });
-    setFilteredBooks(sortedBooks); // Updates the filtered books with sorted data
+    setFilteredBooks(sortedBooks);
   };
 
-  // Render the UI
   return (
     <Container maxWidth="lg">
       <Typography
