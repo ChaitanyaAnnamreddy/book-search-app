@@ -1,0 +1,914 @@
+[
+  {
+    "id": 1,
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "rating": 4.8,
+    "synopsis": "A powerful exploration of racial injustice and moral growth in the American South, seen through the eyes of a young girl.",
+    "image": "data:image/jpeg;base64,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"
+  },
+  {
+    "id": 2,
+    "title": "1984",
+    "author": "George Orwell",
+    "rating": 4.7,
+    "synopsis": "A chilling dystopian novel that depicts a totalitarian society where individuality is crushed and surveillance is absolute.",
+    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAKIAagMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAAAQIEBgcFAwj/xAA+EAABBAEBBgMFBAcIAwAAAAABAAIDBBEFBhIhMUFRBxNhIjJxgZEUobHRI0JScrLB8BU3Y3SCksLSJDND/8QAGwEAAQUBAQAAAAAAAAAAAAAAAAIDBAUGAQf/xAApEQACAgICAgEDAwUAAAAAAAAAAQIDBBEFMRIhURQyQRMi0UJxkaGx/9oADAMBAAIRAxEAPwCuIQhVJ6UCEJcHsgBEISoARCXj2SIAEIQgNghKkQAIQhAAhCEASKEscFyGWdu9G12XDGfnj05/JdEXKzYbLDZdJLLE0eY9jsZBdnGMY4Ec1xkmUDVlKm9tlgZqdNtlkjnOfF57JGR+XjyGgHLc9e3DsvGS9Tm80iV8Ie973BkfGQFgDWk+hBz3yVxULuxv6SG97Z1Ll2vJcpzAeZHEyNr48EcmjPPhzB5KZX1apBO10z3WN3f9vc3SASMN+4qv5SZRs68aDiotv0d2PVKLKj2uj8y0A8Mk3N0Didzh0yHuHpuhedq5UnZI0TBodUjjafLccOaYyfruniFxsoRs59LBPe2TNSkhlsCSB+8HMYC3dxukNA/EFRMpM+gS5XCRGPitC5QkQg6KkQkQAqVjXPeGRtLnHgGtGSujoGh3ddueRTZ7Lf8A2Su91g9fyWtbO7K6docYMLPNs49qxIMuPw7fJGiuzeSqxf29y+DOtI2E1rUA180bacR6zH2iP3Rx+uFZ6fhpQjANu5YlPZmGhXvh2RlKSM7dy+VY/T1/YqQ8PNCAxuWD6+cVHteG+kvB+zzWYnfvB34hXbKVLSRHXIZSe/NmTap4c6nWBfp80dpv7DvYd9/A/cqjbqWaUxhuQSQSDm2RuCvoctyudq2j0tVrmC7A2VvTPAj4Hoh176LHG5y2D1atr/ZgaMqy7WbI2dCJsQF09DPv49qP9781WMpprXZpKL674ecHtDsoykyjKB4cp2iaVPrOpRUqw4uOXPPJjepKgLXvDrRBpujNtTMxZtgPORxaz9Ufz+aEQeRy/pqfJdv0jv6LpVXR6LKlRm6xvEnq49z6qaT2SleEk8THYfIxp7OcAUpGJlJyk5S7PQuSbyj2LMVeIzTPDGDqVXL21JDiKsQA6Of+SlUYtt32Ij2Xwr+5lrDuOEod1yqCdpL5OWz4+DBhSam1s7HAWGRyt644FTXxd6W17GFnVN+y8Ncn4yuXpeqVdQj3q7+LfeYeBaui1/dRXW4PUl7JUZRkto87Vdk0T2PYHNcMOaRkELGdttmzodwTV2k0pj7H+G79k/yW3EZGVxtf0uHVNPmqTj2ZG8Dj3T0KROHkifx+bLFt3/S+zBsoynWa8tOzLWnbuyxOLHD1C88qGzcJqS2j2rxPtXa9WGN73SvAIaM4HVWHYXVtUk26rVLN206H7RM0xPecYDH4GPkpPhfCJtqQ8/8AyrvePq1v81H2b/vTj/ztj+CROQ14mU5yxvIUPwkX/wAQ9oJdA0QPqHdtWH+XG7Gdzhku/rusOsTy2JTNZlfLIeJe92Tn4rZfFDRp9V0OOWowyTVH+ZuAZLmkYOPx+SxKzII4yfknK0mUjLPs/tBbcY6Fqd8kOD5Qe7O6ea6f2nzbLGEkBzgFTNnWSz2/tBaBFED7XcnouvqN0U4vNxl2fZGeq1fHJV4znZ6SKTL/AHXKMe2XgO3G7reDRwwuJqrvItAs4B4yQFWGbYXdzEjGuf3a7A+mF7UtWk1GQmzjziMjd5EdkYmdTbb4fJ2/GnCHkWrSdRlgmbJDIWvbyIXZ242qkfs3KNMmfBPub0r2HBYewP8AXRUp1v7JGX4y48GjuVBnnc/StQa9xJfFvE9zkfmm+Vqh2u0LwJyT1+C/+Cep3tRi1U37k9gscwM815du8DyWj2Blqx7wR1SOnYvVXRvc+xLGGlpGBz5rZZuSo0i1Ma8TKAq60y0xuBZZ7X7zeH4YVQytL8WYs6ZUm6ss7nyLSf8AiFmXBQLo6mzb8Va7MSO/x6Lz4TuA2jnaTxNR2P8AexQtm/704/8AO2P4JF5+HtoVdq6m8cCUOiPzHD7wFolDYnS6evN1qGa4bIkfJuue3cy4EHhu5/WPVci9Ioubi1k7+UWN3ost28qadcvh8FGvvNfuue2MAyOPfHNalK3fY5u8W5GMt5hVu3szVED3QumdK0ZZvuBGfon8aUY2JyKW1NwejOpKbatZsUbWtAHENGAq3tJG4xRPA9lpId6ZV7twbwPDiOC4VysCHMkYC08CO62cq1fjupetmfjN12qbKEujojHvvNc33WAk/RdB+hVi/LXyNb2zlT6lSKrHuQNwOpPMqsxOJthcpWdInX51cq3GPbJMNaKaQebG1xHddW1ptX+xNRe2uwFlVzs49R+ajUYiXZwr3ougxajo1qK2ZGRW2+XvMIDg0HPDI7qbyc4xrfyRsKMnYiv+DFCo4ahM6vGZI5IyxxHEHC1KYgNXE2Y2YobNtnbQksPE5Bd5zw7GO2AF1bDsNWaXRdlB8VXD+woR3tsx/tess3loPivaBjo1QeJe6Uj4DA/ErPfqoV73M2XDR8cRb/LZKrWH1bMViI4fG4Ob8QcrftH1CPUdOr24Tlk0YePTuF8+FXvwz2ibWmOj234ZK7erk8g7q35ppCeYxXbV+pHuP/DVTyXi8L0a8EBBGUpGTKxrmiukLrNVuXHi+MdfUKpWqmSQ5pBHMFagW8SolrTqtrjPC1zv2sYP1VxicnKpeM/ZAvwlN7iZS+g7PAJzKJzxWiu2bok5xKP9SlVdFoVyHNgaXDkZPawrOXNV69bIi46e/bKts/s7LZc2SYGOAHrzd8Fe4WNYxrI2hrWjAHYIa1emQ3OVUZGVPIluRZU0RpWkOyGhQLUueS9Z5uHPCpO3u0LdK04wRP8A/LstLWAc2t6uUdy0tkummV1ihHtlB201QaptBYfGd6GE+VGehxzP1yuHvJgTlCb29s3lNargoLpEgpA4tc1zSWuacgjmD3SlMXBzs1bYjbNmpRso6lIGXm8GuPATD/t6K8MlB6r5wzgggkEHgQeSumzviDZohtfVmusQjgJm++349/x+K6mZ3P4h7c6P8fwa/kO+KMfBcLS9foaowPo2o5eHug4cPlzXRFgd0pFBKEoPUlol7o6cUYwov2kd0x9nsUtCGTS8NHRRprHDgVz7upQVIvNtTsiYP1nuwFRNoPESFgdDozPOk5Gd4wxvwHVK8kiRRi23vUEWjafaOrolQyTODpnD9FCDxefy9Vjep6hZ1S7JcuP3pX9ByaOgHoF4W7c92y+zbldLM8+0539cl5Jqc/I1WBgRxY77kx+UqaEuUgsCUU0p5TEChpTCnlNwScAEkngAg4NDi1wc0lrhxBBwV06u02uVGhsOp2C0dJD5n8WVzC0jOQR8k1zSCQWkY556IGp11z+5bLGNu9fDcGeEnuYgolnbDX7AIdqL2A9I2hv34yuM5rmn2mubxI4gjkmuY5vvNc34go2xpYuPF7UULPPNZkMlmaSZ5/WleXH6lefNPdHIw+3G9vTi3Ca4FpIIII6EIHlpekAShIlQKHhKmhOQdJZTCnlNKBQwoY8xvD2e8DkJSmFBxk9+tXXEuLoyT/hjCa/WbryMmI4GB+jHEevdQEhQNuqHwSpNTsyxPikLHNdIXnLOpdvH6lLNq92aKSOVzHNkyHfoxk5GOfwChFIQjYfpx+DoN12+05L2O5Y3mA4x0+5Q7dqW5L5k+6XgY9loA+5eWEmEAq4xe0gSgIATggWACXCAlQBLKYUIQLGpCkQg4NKaUIQcEKRCEHBEIQgATgkQgBwQhCAP/9k="
+  },
+  {
+    "id": 3,
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "rating": 4.6,
+    "synopsis": "A witty and romantic tale of love and social class in 19th-century England, following the spirited Elizabeth Bennet.",
+    "image": "data:image/jpeg;base64,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"
+  },
+  {
+    "id": 4,
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "rating": 4.4,
+    "synopsis": "The Great Gatsby by F. Scott Fitzgerald is a classic American novel set in the Jazz Age of the 1920s, following the mysterious millionaire Jay Gatsby and his obsession with the beautiful Daisy Buchanan. Through the eyes of narrator Nick Carraway, the story explores themes of wealth, ambition, and the hollow pursuit of the American Dream, culminating in a tragic tale of love and disillusionment.",
+    "image": "https://images.penguinrandomhouse.com/cover/9780743273565"
+  },
+  {
+    "id": 5,
+    "title": "Moby-Dick",
+    "author": "Herman Melville",
+    "rating": 4.2,
+    "synopsis": "Moby-Dick by Herman Melville is an epic tale of obsession and revenge, following Captain Ahab's relentless pursuit of the white whale, Moby Dick, which bit off his leg in a previous encounter. Narrated by the sailor Ishmael, the novel delves into the whaling industry, human nature, and existential questions, blending adventure with philosophical and scientific digressions in a richly symbolic narrative.",
+    "image": "https://images.penguinrandomhouse.com/cover/9780142437247"
+  },
+  {
+    "id": 6,
+    "title": "War and Peace",
+    "author": "Leo Tolstoy",
+    "rating": 4.7,
+    "synopsis": "War and Peace by Leo Tolstoy is a monumental historical novel that chronicles the lives of five aristocratic families during the Napoleonic Wars, from 1805 to 1820. Blending fictional narratives with historical events, Tolstoy explores themes of love, power, and destiny through characters like Pierre Bezukhov, Natasha Rostova, and Andrei Bolkonsky, offering a profound meditation on history, free will, and the human condition.",
+    "image": "https://images.penguinrandomhouse.com/cover/9780140447934"
+  },
+  {
+    "id": 7,
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "rating": 4.0,
+    "synopsis": "The novel follows Holden Caulfield, a teenager who has just been expelled from his prep school. Disillusioned and struggling with the phoniness of the adult world, Holden recounts his experiences over a few days in New York City, revealing his inner turmoil and quest for authenticity.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/3/32/Rye_catcher.jpg"
+  },
+  {
+    "id": 8,
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "rating": 4.3,
+    "synopsis": "Bilbo Baggins, a hobbit living a quiet life, is swept into an epic quest by the wizard Gandalf and a group of dwarves. Their mission is to reclaim the lost Kingdom of Erebor from the fearsome dragon Smaug. Along the way, Bilbo encounters trolls, goblins, and the creature Gollum, discovering a magical ring that changes his life.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/4a/TheHobbit_FirstEdition.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "rating": 4.1,
+    "synopsis": "In a dystopian future where books are banned and 'firemen' burn any that are found, Guy Montag begins to question his role in society. Influenced by his encounters with a young woman named Clarisse and the traumatic events he witnesses, Montag starts to seek knowledge and truth, leading to a rebellion against the oppressive regime.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/d/db/Fahrenheit_451_1st_ed_cover.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "rating": 4.2,
+    "synopsis": "Orphaned and mistreated, Jane Eyre grows up to become a governess at Thornfield Hall, where she falls in love with the mysterious and brooding Mr. Rochester. As secrets from his past come to light, Jane must navigate her feelings and moral convictions to find her own path to happiness and independence.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Jane_Eyre_title_page.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "rating": 4.0,
+    "synopsis": "The passionate and tumultuous love story of Heathcliff and Catherine Earnshaw unfolds on the Yorkshire moors. Their intense relationship, marked by obsession and revenge, affects everyone around them, leading to a cycle of suffering and tragedy that spans generations.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Wuthering_Heights.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "rating": 4.3,
+    "synopsis": "A placeholder entry with an unclear narrative.",
+    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAKEAagMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAADBAACBQEGB//EADsQAAIBAwIDBQYFAwIHAQAAAAECAwAEERIhBRMxIkFRYXEUMoGRobEGFSMzQlLB8CTRFmJ0grLh8Qf/xAAaAQADAQEBAQAAAAAAAAAAAAAAAQIDBAUG/8QAJBEAAgICAQQCAwEAAAAAAAAAAAECEQMSIQQTMVEFQRQysSL/2gAMAwEAAhEDEQA/APhtSpXRtQBMHwqYNbPCrVbuDK8Oa4Mb6WaOTSTkHGd/8wKdPDraNF1cJuS2STquFxsP/dUogeZwa7pNej/LYUdS3C52BkwuLhcMAOn0JrknDFQM/wCU3ARV6GcHG/WrURWeewfCuEeVelbhceeY3CpxE3b2nHZA6/DcfKg2llaXUrrHYzuN2T9bGoDuBxuc5p6hZgYrmK9MnCYNInNg5iOCAbkbb4wfU/aqLwqNCgk4bOctp1+0ABtv/tS4hZ5zBrleiuuHRQRTyfllwkSpnXJOOwfPHwrz5G1S0MrUqVKkC2nzq6pnv2o9pcPbcxolTU6acsobTuDtn0xWx+KZSOL31okcaxw3LcvSgUqPDYVrFO6EYajScgjI3B8KIM6NOo6c6sE7Z8a9ettC34t4Upe3VW9nDQmP3sgZz2cb5NZf4ZXmcW/VVX1RSEhlB3Ck/wBquMlV0S/NGIIx1I60RAy5KkqSMHScZFa3BhbstxHPMlvPKq8q4kTUiHO4PXGRjfG2KpxWCaK/kW5jRJRgkR40nYYIx3GtV+2pm3xZlcoY6AVOWN9hit/hCD8t4odcUbIkRSSRNQQmQA9xPTai3Vukf4nt+VEiwyyQsgABV1IALDrsTqOPOk5K2qDmrPNFAMkD5VwqV6bd23eK9Px+BYbZhKkRle8kMDxAYWJSQVJHfnG3UfEZHw7hQueFXEfJBnljM8EmdwY/44/5gX+lTstbZSu6PMlRnBAz5UNl7816HhsYvOEcQslRDOii4hOkZYL7659N/hQ0I/PrCABGSGWKE9gdrtANn61MvspMwNPnXNJrb4+3608QmgkUXL6Vjj0mMKSMdBtv9Kx9PmKzSvkoLFsVJAYDuboaevbmTiF5LdzqgklbU+gYBPzpWNdhR0XNdMYryYykzQHFLg8Sg4hohE8ATR2Tp7PTIzVLG6eyuTPAkeoqVAYEgAjB76Aq0VUrRY4+jJyYS3mMUbx8mJ0cgkODtjwwfOpcSSXUxllILbDA6ADoBUCVYJWigvIcl7W5a3gnhWKN0nCiTWDuAcjvHfUN3MbuK5YKXiCiNSvZUL7oAz0FV0HwrhTFHbj6C2WmvZpYriJ1jMc8vNK4PZfvZfA771WO+mhvYbuOOJZIQAgwdO23TPma4UobL5VLxxC2VguprW+W8tsRTKxYaRsM5BHpgkUrBK9tcxXCAM8bh11b7g5GaYdPKgsnhUOCGpNHL28a5EoaCCMyyc12jUgk7+JO3aNJafOjutD0VGi+jZS9mr+H2MXFLZ1xsejDIOx2IrWa2RrO74nYApbTw4eIHe3k1plfMdcHwNYVjK9tIksWA6jYkZpmCaWOOaNHKpMAJFHRgDkbeop9tt2jPb6Nm3cxcF4dILgQsJ5yOznXgRkD0z96nCke84dLaKSssEq3CMOunOl/llW+BpKG+nSKKICMpExZA0YOCcZP0HyrkM0sTu8blWdWViO8EYNaLE2mg2Vo1+LaQ019ASIr5F5YH8f6x8Cp+dIcKuVs+IQzyjMStiQeKHY/ShGWR4Y4WYmOPOhe4Z61XGdjW0MVR1ZMpW7N+ThzCzfh7yE3FvPzi3eYidJP/i3xpONg1nxG/XBmDoqHHuK2dx8gM0qbq4MjS81tbx8pjnqmMY+VUgmltyxibAcaWUjIYeBFSsEkuWNyVjDf6rgc8twcywzosch95gwbKnx6Zp+9TFrLM+mZPy+NTEBllduknlg9/pWPPPJKixnCxpkqijABPU+vnVm4hc81ZQyhlj5QwgwUxjSR3iolhk/A1NEQH/huf/q0Hw0mh8MLJw3i7DIZYUKnwOsbjwqiXcsUDQKIzEz6yrIDv470IX06e0Y0f6jAkBQYIHd9KmWN00K1wzvEFW44Ha3cqqLj2h4SwGNaAAgnHgTjNYuB409d3E1xo5r5CDSigAKo8ABsKUqYx1DYJD7o9KZQUCH3V9KZQVrAh+QqiiqKGvSneH2c1/dJbWwUysCQCcdBmtrUVbBJt0gIFXC/E1pNwG/SyiuTC+ZJjEItB1Z8fSgrbvBJNHPCRJGcH9TTpbw7/EVUM+KSbi7LlimvKJDw24lgupuxGlsgZ+a2knPQKD1Ox28jQbi1uLcRNcQSxCVNcfMQrrXxGeor1/4eu4DIbe5MFvKiakvLnUxijGP044+hbfb47bVb8VcHMmLhLa5NxKAsIuZC1zcD+rljZQN9sdMbVzLrn3NZI6vw08e8WeGYVQivQ2nAjJw6e6meMJsI2B3znfb6ZPpQLvh9uY0ePMYjTSwHaaRvHy+tTL5Hp99Exw+N6icNkjBYUBx1pmRGQ6XRlbwYYNAeuh0+Tiprhi0goWKM9DrFoR2H3V9KZSlIj2R6UyhpwB+RhTtX13/8ttLO7sobaaHh/t0UjSJPHvMseBnJx1ywA67Z8K+Qoa3OC3xt2Vrc+zPCNZnD4Ocgf56VHVX2+BObx/6SPrc9rw684i1twuLlTY7Pa7TbEgk92QO8nzx3eC/FHD0sJcPZzwqXzNMcspYnBGM7d+K9J+GPxlaQSL+YxRm6YZiutZ07jqUHke4fKvK/jjj1lxqe0m4dPe5VCs0U+NKsDsy47zkk153TdKnmUsfHs7l1qyYtXz/T0XDobLg8YlgHs5z2+K3MGSTv+zCBhTucFgMfdPjPERYzyxRNeWU9zAssUr5e4uySQA7huwD4ZxjFeOHFrwyXUkkvNluouVLJMA7afIncbbZFKPIztl3ZjjGWbJx4V6C6CTlc2V+bGMdYKjcUsAUyqnoQh2+Hl1q80mtQiKETOQvU5wM79e6si1vEj5UTIFjGdbHJNSbiRaIGEFJNXU75Xfx6fCvGyfH5u74PpMfyvTdm75FL9ke5ZkmaUHfJGMeVIt30aVy7Mxxkkk4FAc172OOmNRPkc81kyymvtgJKFRHoWalmRyI9lfSmUNJRHsimEalFjl5G1NFUiq8N5b39sk2OU0qB8nA05GfpWtaxWLWdgzhOe8pEylv44bHp3fKtVKhCJlZiuWPZGBv0FQHatKOCwN9EuYzBz5dR1ndFGQPHyzWeYuVMqysChbGsdCAxGfoauDS8BRzNQmtKWK0EPETpjWSM/ohXz3d2/wDvVpYbD2e/wUWVZgsHa6rkf2qu4FGQTVWNOcWgiiupDalTANOCrZAJHT6Gi21pZMbfnzgCSBmfte64OwNS5qrCjJZqC5pu+SGKK2aI9p4wzjVnB0g/DckfCkGas3IAbmh5qO1DzWTY0ikbbCjo1Jo3SjK1TFmk4j0WXYKoyxOAPE097BdgkGD3ZOUe2vv493rWSrbVpJxa4Gsdjt3BuGGn+Z760TMg1tZzTyyRLpDxDLgt54o0nD7mONXcKFaLnL2v4bb/AFFJQcQlgmlli0K0qlW7OwBOdh6gUV+K3EkSRMV0JCYVGnopxn7VWzAak4dPGZAXgJQoDplzu+649RQzYze2mz/T5gXVnV2cadWc+lDHFZ/1do/1DGWyv9AwuN/Cufmk44gL7sc4Afx2GF0jb0FPZjCiwuGSIxmNubE0qqrgnSvXPh3/ACNVbh82kHmQYMAn/cGyZA388kUKDis9sVMWjKRtGMrnskknPzNDXiU0YIAjIMHs51L1TUG+4qXJhwUvYJLWTly6Q+MkA5x6+e3+dSm7Ue9vZLtkaXTlECDAxgAk/cmkmapbCjjtVNVcZqpms3I1UQattuaba2niuvZZIyk4bQUbYg+FU4YIxdo8pULGC+CwXUR0Az35rR4hcQ3jcOvFkUTECKdGcZGg4Vj4ZXA/7fOuZZGnRtqLNbXEck8UkTJJB+6r7FasYpUgjnZcRyEhGz1x1p++4jbXsF4bhx7ahKRSLuJ49W2T/UB3949KDPofhfCYZJAhZ5SxJAwpbrWscr+zN40AdJIhGZEKiRNaZHvLkjP0NEt4ZrnmCCMuY0LsB3KOppniF3b3nC10ssctrMVjQuCWiPcPIED50DhF6bKSS4QoXjAxGzAcwE9pfiMirWR62Q8asqI5Tam5CHkhxHr7tRGceuKqUk5HP0NytWjV3asZxTt7cWn5bc2tnMGhiuong1nDuumXUcddtSCrQ3Nv7BccNeRADAJVkMg084drA9clfgOlLuv0HbEXhmSCOdkIhlYqj9xI6iuG1uC86aO1bgtKMjsgHB+pFM2l9FFZxWt1+pZThhOisCyHPZcDuI+oyK5HcQNxHi6CdNF0kyQyNsrEyBhknpkL3+O9J5JDWNCIhlfk6R+8cR79TnH3ql1bT2zYnUIdRTdhsR1HwyKPGyR3XD42kj/RcNIwYFV7eevQ7VOOskt5LJCbYLJNJp5UmdQLEhmOTjOcb+FTLI7LUEhK7hltJ3gnXRKhwy+BoGutT8RCObid7dxTxPHJPmMJICWBzvtuOg6+NZOPWs97Lork560z7Jd6c+zy4zj3D1/w0sKP7VPkkXEoyc++azsZYW1zp1ciUrjOdJ6Yz9qssFyyhhBMwOwOg4O2ftvQjdTEEc+Xfr2zvXRdzgbTy+GNZ8MfaqUhUGFtcFVbkSaWXUp0nBHj9K4YJw2jlSBsgY0nOT0HxoK3EgUKJZAoBAUMcAb7fU/OobiU5zM5zjPaO+OlWpsKGWtblVZ2glCqRklTtk4H1qNaXQzm3mHqh7sj+x+RpdrmZs6ppDnrlzvvmp7TNp0ieTHhrOB1/wBz86e4qCmCcD9mXu6qepOB86ht7kOU5EgcDOCpzjOPvQmupm96eU753cmuG4kLlzLIWIwW1HPXP3qXMdFzb3GsIYZNZGcaDnGcZ+e1QWl02628p6fxO2elUFzPnVz5c7b6z3bioLmYdJpB6OahysZSVJIn0yKyNgHDDBwRkfQ1SrSyNIwLszHGMsc7VSpAlSpUoAlSpUoAldqVKpASpUqUAcqVKlICVKlSkBKlSpQB/9k="
+  },
+  {
+    "id": 13,
+    "title": "The Odyssey",
+    "author": "Homer",
+    "rating": 4.5,
+    "synopsis": "The Odyssey is an ancient Greek epic poem attributed to Homer, chronicling the ten-year journey of Odysseus, king of Ithaca, as he returns home after the Trojan War.",
+    "image": "https://images.penguinrandomhouse.com/cover/9780140268867"
+  },
+  {
+    "id": 14,
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "rating": 4.7,
+    "synopsis": "Crime and Punishment is a profound psychological novel by Fyodor Dostoevsky, exploring the moral dilemmas of Rodion Raskolnikov, a destitute ex-student in St. Petersburg. Raskolnikov murders an unscrupulous pawnbroker, believing he can justify the act through a utilitarian philosophy that deems some lives expendable for a greater good. Tormented by guilt and paranoia, he grapples with his conscience, societal judgment, and the redemptive power of love and suffering.",
+    "image": "https://images.penguinrandomhouse.com/cover/9780143107637"
+  },
+  {
+    "id": 15,
+    "title": "The Brothers Karamazov",
+    "author": "Fyodor Dostoevsky",
+    "rating": 4.8,
+    "synopsis": "The Brothers Karamazov, Dostoevsky's final novel, is a philosophical and spiritual drama centered on the Karamazov family. The three brothers—intellectual Ivan, passionate Dmitri, and pious Alyosha—along with their dissolute father Fyodor Pavlovich, confront issues of faith, morality, and free will. When their father is murdered, the ensuing trial exposes deep familial tensions and existential questions, culminating in a profound exploration of human nature and divine justice.",
+    "image": "https://images.penguinrandomhouse.com/cover/9780374528379"
+  },
+  {
+    "id": 16,
+    "title": "Anna Karenina",
+    "author": "Leo Tolstoy",
+    "rating": 4.6,
+    "synopsis": "Anna Karenina by Leo Tolstoy is a sweeping novel of love, infidelity, and societal pressure in 19th-century Russia. Anna, a beautiful and aristocratic woman, embarks on a passionate affair with the dashing Count Vronsky, defying the rigid norms of her time. As her marriage to the dutiful Alexei Karenin unravels, Anna faces ostracism, despair, and tragedy, while the parallel story of Levin explores themes of rural life, faith, and personal fulfillment.",
+    "image": "https://images.penguinrandomhouse.com/cover/9780143035008"
+  },
+  {
+    "id": 17,
+    "title": "Madame Bovary",
+    "author": "Gustave Flaubert",
+    "rating": 4.4,
+    "synopsis": "Madame Bovary, Gustave Flaubert's masterpiece, follows Emma Bovary, a young woman trapped in a stifling marriage to a provincial doctor, Charles Bovary. Yearning for romance and luxury inspired by the novels she reads, Emma embarks on adulterous affairs and indulges in extravagant spending, leading to financial ruin and emotional despair. A scathing critique of romantic idealism and bourgeois society, the novel examines the consequences of unfulfilled desires.",
+    "image": "https://images.penguinrandomhouse.com/cover/9780140449129"
+  },
+  {
+    "id": 18,
+    "title": "The Divine Comedy",
+    "author": "Dante Alighieri",
+    "rating": 4.7,
+    "synopsis": "The Divine Comedy by Dante Alighieri is an epic poem that chronicles the poet's allegorical journey through the afterlife. Guided by the Roman poet Virgil, Dante traverses Hell (Inferno), Purgatory (Purgatorio), and Paradise (Paradiso), encountering historical and mythological figures while exploring themes of sin, redemption, and divine justice. A cornerstone of Western literature, it blends theology, philosophy, and poetry in a vivid depiction of the medieval Christian worldview.",
+    "image": "https://images.penguinrandomhouse.com/cover/9780142437223"
+  },
+  {
+    "id": 19,
+    "title": "The Catch-22",
+    "author": "Joseph Heller",
+    "rating": 4.5,
+    "synopsis": "Catch-22 by Joseph Heller is a satirical novel set during World War II, following Captain John Yossarian, a U.S. Army Air Forces bombardier desperate to survive the absurdity of war. Trapped by the bureaucratic 'Catch-22'—a rule that declares a pilot sane if he requests to be grounded, thus requiring him to fly more missions—Yossarian navigates a surreal world of incompetence, greed, and dark humor, exposing the irrationality of war and human institutions.",
+    "image": "data:image/jpeg;base64,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"
+  },
+  {
+    "id": 20,
+    "title": "The Grapes of Wrath",
+    "author": "John Steinbeck",
+    "rating": 4.6,
+    "synopsis": "The Grapes of Wrath by John Steinbeck is a powerful depiction of the Great Depression, following the Joad family as they are driven from their Oklahoma farm by drought and economic hardship. Migrating to California in search of a better life, they face exploitation, poverty, and disillusionment. Steinbeck's novel interweaves their story with broader social commentary, highlighting themes of resilience, solidarity, and the struggle for dignity amidst systemic injustice.",
+    "image": "https://images.penguinrandomhouse.com/cover/9780143039433"
+  },
+  {
+    "id": 21,
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "rating": 4.5,
+    "synopsis": "In the fictional land of Middle-earth, a group of unlikely heroes embarks on a dangerous quest to destroy the One Ring and save their world from the dark lord Sauron. The epic journey spans across three volumes: 'The Fellowship of the Ring,' 'The Two Towers,' and 'The Return of the King'.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/e/e9/First_Single_Volume_Edition_of_The_Lord_of_the_Rings.gif"
+  },
+  {
+    "id": 22,
+    "title": "The Kite Runner",
+    "author": "Khaled Hosseini",
+    "rating": 4.35,
+    "synopsis": "Set against the backdrop of a changing Afghanistan, 'The Kite Runner' tells the story of Amir, a young boy from a wealthy family, and Hassan, the son of his father's servant. Their friendship is tested by betrayal and guilt, leading Amir on a journey of redemption.",
+    "image": "https://images.penguinrandomhouse.com/cover/9781594631931"
+  },
+  {
+    "id": 23,
+    "title": "The Book Thief",
+    "author": "Markus Zusak",
+    "rating": 4.35,
+    "synopsis": "During World War II, young Liesel Meminger finds solace in stealing books and sharing them with others. Living with her foster family in Nazi Germany, she forms a bond with a Jewish refugee hiding in their home, discovering the power of words and stories.",
+    "image": "https://images.penguinrandomhouse.com/cover/9780375842207"
+  },
+  {
+    "id": 24,
+    "title": "Life of Pi",
+    "author": "Yann Martel",
+    "rating": 4.2,
+    "synopsis": "After a shipwreck, Pi Patel finds himself stranded on a lifeboat in the Pacific Ocean with a Bengal tiger named Richard Parker. Over 227 days, Pi's survival instincts and spiritual journey are tested as he forms an unlikely bond with the tiger.",
+    "image": "https://images.penguinrandomhouse.com/cover/9780156027328"
+  },
+  {
+    "id": 25,
+    "title": "The Road",
+    "author": "Cormac McCarthy",
+    "rating": 4.1,
+    "synopsis": "In a post-apocalyptic world, a father and his young son struggle to survive as they journey through a desolate landscape. Their bond and hope are tested by the harsh realities of their environment and encounters with other survivors.",
+    "image": "https://images.penguinrandomhouse.com/cover/9780307387899"
+  },
+  {
+    "id": 26,
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "rating": 3.92,
+    "synopsis": "Santiago, an Andalusian shepherd boy, dreams of finding treasure near the Egyptian pyramids. His journey of self-discovery teaches him about the importance of following one's dreams, recognizing opportunities, and listening to one's heart.",
+    "image": "https://images.penguinrandomhouse.com/cover/9780061122415"
+  },
+  {
+    "id": 27,
+    "title": "The Da Vinci Code",
+    "author": "Dan Brown",
+    "rating": 4.0,
+    "synopsis": "Robert Langdon, a Harvard symbologist, becomes the prime suspect in the murder of Louvre curator Jacques Saunière. With the help of cryptologist Sophie Neveu, Langdon uncovers a secret that could shake the foundations of Christianity.",
+    "image": "https://images.penguinrandomhouse.com/cover/9780307474278"
+  },
+  {
+    "id": 28,
+    "title": "The Hunger Games",
+    "author": "Suzanne Collins",
+    "rating": 4.3,
+    "synopsis": "In a dystopian future, the totalitarian nation of Panem forces its 12 districts to send a boy and a girl to compete in the Hunger Games, a televised fight to the death. Katniss Everdeen volunteers to take her sister's place, facing challenges that test her survival skills and humanity.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/42/The_Hunger_Games_cover.jpg"
+  },
+  {
+    "id": 29,
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "author": "J.K. Rowling",
+    "rating": 4.5,
+    "synopsis": "Harry Potter discovers he is a wizard on his 11th birthday and attends Hogwarts School of Witchcraft and Wizardry. There, he learns about his parents' mysterious death and faces the dark wizard Voldemort.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/6/6b/Harry_Potter_and_the_Philosopher%27s_Stone_Book_Cover.jpg"
+  },
+  {
+    "id": 30,
+    "title": "Harry Potter and the Chamber of Secrets",
+    "author": "J.K. Rowling",
+    "rating": 4.4,
+    "synopsis": "In his second year at Hogwarts, Harry Potter faces new challenges as he tries to uncover the mystery behind the Chamber of Secrets, which has been opened and is terrorizing the school.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/5/5c/Harry_Potter_and_the_Chamber_of_Secrets.jpg"
+  },
+  {
+    "id": 31,
+    "title": "Harry Potter and the Prisoner of Azkaban",
+    "author": "J.K. Rowling",
+    "rating": 4.6,
+    "synopsis": "Harry Potter's third year at Hogwarts is marked by the escape of Sirius Black, a dangerous prisoner believed to be after Harry. As Harry learns more about his past, he uncovers secrets that change his understanding of his family and friends.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/a0/Harry_Potter_and_the_Prisoner_of_Azkaban.jpg"
+  },
+  {
+    "id": 32,
+    "title": "Harry Potter and the Goblet of Fire",
+    "author": "J.K. Rowling",
+    "rating": 4.5,
+    "synopsis": "Harry Potter competes in the Triwizard Tournament, facing dangerous tasks and uncovering dark secrets. The return of Voldemort marks a turning point in Harry's journey, leading to greater challenges and battles.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/9/9b/Harry_Potter_and_the_Goblet_of_Fire.jpg"
+  },
+  {
+    "id": 33,
+    "title": "Harry Potter and the Order of the Phoenix",
+    "author": "J.K. Rowling",
+    "rating": 4.4,
+    "synopsis": "Harry Potter forms Dumbledore's Army to fight against the dark forces threatening the wizarding world. As he faces personal and external challenges, Harry learns about the prophecy that ties him to Voldemort.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/7/70/Harry_Potter_and_the_Order_of_the_Phoenix.jpg"
+  },
+  {
+    "id": 34,
+    "title": "Harry Potter and the Half-Blood Prince",
+    "author": "J.K. Rowling",
+    "rating": 4.5,
+    "synopsis": "Harry Potter uncovers secrets about Voldemort's past and learns about the Horcruxes, objects that hold pieces of Voldemort's soul. As the battle against dark forces intensifies, Harry faces loss and prepares for the final confrontation.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/6/6f/Harry_Potter_and_the_Half-Blood_Prince.jpg"
+  },
+  {
+    "id": 35,
+    "title": "Harry Potter and the Deathly Hallows",
+    "author": "J.K. Rowling",
+    "rating": 4.6,
+    "synopsis": "In the final installment of the series, Harry Potter embarks on a quest to destroy the Horcruxes and defeat Voldemort. The epic battle between good and evil reaches its climax, leading to a resolution that changes the wizarding world forever.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/a9/Harry_Potter_and_the_Deathly_Hallows.jpg"
+  },
+  {
+    "id": 36,
+    "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+    "author": "C.S. Lewis",
+    "rating": 4.3,
+    "synopsis": "Four siblings discover the magical land of Narnia through a wardrobe. They join forces with Aslan, the great lion, to fight against the White Witch and restore peace to Narnia.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/8/86/The_Lion%2C_the_Witch_and_the_Wardrobe_%281st_edition%29.jpg"
+  },
+  {
+    "id": 37,
+    "title": "The Chronicles of Narnia: Prince Caspian",
+    "author": "C.S. Lewis",
+    "rating": 4.2,
+    "synopsis": "The Pevensie siblings return to Narnia to help Prince Caspian fight against his evil uncle, King Miraz, and restore peace to the land.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/7/7e/Prince_Caspian_book_cover.jpg"
+  },
+  {
+    "id": 38,
+    "title": "The Chronicles of Narnia: The Voyage of the Dawn Treader",
+    "author": "C.S. Lewis",
+    "rating": 4.2,
+    "synopsis": "Lucy and Edmund Pevensie, along with their cousin Eustace, join Prince Caspian on a voyage to the edge of the world aboard the Dawn Treader.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/b/b4/Voyage_of_the_dawn_treader.jpg"
+  },
+  {
+    "id": 39,
+    "title": "The Chronicles of Narnia: The Silver Chair",
+    "author": "C.S. Lewis",
+    "rating": 4.2,
+    "synopsis": "Eustace Scrubb and Jill Pole are sent to Narnia to rescue Prince Rilian, who has been enchanted and imprisoned by the evil Lady of the Green Kirtle.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/4e/The_Silver_Chair_%281953%29.png"
+  },
+  {
+    "id": 40,
+    "title": "The Chronicles of Narnia: The Horse and His Boy",
+    "author": "C.S. Lewis",
+    "rating": 4.2,
+    "synopsis": "Shasta, a young boy, and Bree, a talking horse, embark on a journey to Narnia to escape their lives in Calormen and warn of an impending invasion.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/5/5b/The_Horse_and_His_Boy_%281954%29.png"
+  },
+  {
+    "id": 41,
+    "title": "The Chronicles of Narnia: The Magician's Nephew",
+    "author": "C.S. Lewis",
+    "rating": 4.2,
+    "synopsis": "Digory Kirke and Polly Plummer discover the origins of Narnia and witness its creation by Aslan, the great lion.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/8/86/The_Magician%27s_Nephew_%281955%29.png"
+  },
+  {
+    "id": 42,
+    "title": "The Chronicles of Narnia: The Last Battle",
+    "author": "C.S. Lewis",
+    "rating": 4.2,
+    "synopsis": "In the final battle for Narnia, King Tirian and his friends fight against the forces of evil to save their beloved land.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/8/8b/The_Last_Battle_%281956%29.png"
+  },
+  {
+    "id": 43,
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "rating": 4.2,
+    "synopsis": "Arthur Dent is whisked off Earth just before it's destroyed to make way for a hyperspace bypass, embarking on a journey through space with his alien friend Ford Prefect.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/b/bd/H2G2_UK_front_cover.jpg"
+  },
+  {
+    "id": 44,
+    "title": "The Restaurant at the End of the Universe",
+    "author": "Douglas Adams",
+    "rating": 4.2,
+    "synopsis": "Arthur Dent and his friends continue their adventures, visiting the titular restaurant where they witness the end of the universe.",
+    "image": "https://images.penguinrandomhouse.com/cover/9780345391810"
+  },
+  {
+    "id": 45,
+    "title": "Percy Jackson & The Olympians: The Titan's Curse",
+    "author": "Rick Riordan",
+    "rating": 4.4,
+    "synopsis": "Percy Jackson and his friends embark on a quest to rescue the goddess Artemis and save their friend Annabeth from the clutches of the Titan Atlas.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/6/6b/The_Titan%27s_Curse.jpg"
+  },
+  {
+    "id": 46,
+    "title": "Percy Jackson & The Olympians: The Battle of the Labyrinth",
+    "author": "Rick Riordan",
+    "rating": 4.4,
+    "synopsis": "Percy Jackson and his friends navigate the dangerous Labyrinth to prevent the evil Titan Kronos from invading Camp Half-Blood.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/8/8c/PercyJackson_Book4_TheBattleOfTheLabyrinth.jpg"
+  },
+  {
+    "id": 47,
+    "title": "Percy Jackson & The Olympians: The Last Olympian",
+    "author": "Rick Riordan",
+    "rating": 4.5,
+    "synopsis": "Percy Jackson leads the demigods of Camp Half-Blood in a final battle against the forces of the Titan Kronos to save Olympus.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/4b/Percy_Jackson_and_the_Last_Olympian.jpg"
+  },
+  {
+    "id": 48,
+    "title": "The Maze Runner",
+    "author": "James Dashner",
+    "rating": 4.0,
+    "synopsis": "Thomas wakes up in a mysterious maze with no memory of his past and must work with other boys to find a way out and uncover the truth about their situation.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/d/db/The_Maze_Runner_cover.png"
+  },
+  {
+    "id": 49,
+    "title": "The Scorch Trials",
+    "author": "James Dashner",
+    "rating": 4.0,
+    "synopsis": "Thomas and his friends face new challenges in a post-apocalyptic world as they search for answers and a way to survive.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/6/62/The_Scorch_Trials_cover.jpg"
+  },
+  {
+    "id": 50,
+    "title": "The Death Cure",
+    "author": "James Dashner",
+    "rating": 4.0,
+    "synopsis": "Thomas and his friends must navigate a deadly maze of trials to find a cure for the Flare virus and save humanity.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/6/6b/The_Death_Cure.jpg"
+  },
+  {
+    "id": 51,
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "rating": 4.2,
+    "synopsis": "Paul Atreides leads a rebellion on the desert planet Arrakis to control the valuable spice melange and fulfill his destiny.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/5/51/Dune_first_edition.jpg"
+  },
+  {
+    "id": 52,
+    "title": "Dune Messiah",
+    "author": "Frank Herbert",
+    "rating": 4.1,
+    "synopsis": "Paul Atreides struggles to maintain control of the empire he has built and faces new challenges and betrayals.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/8/8e/Dune_Messiah_first_edition.jpg"
+  },
+  {
+    "id": 53,
+    "title": "Children of Dune",
+    "author": "Frank Herbert",
+    "rating": 4.1,
+    "synopsis": "The children of Paul Atreides must navigate political intrigue and danger as they come into their own and shape the future of the empire.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/5/5e/Children_of_Dune-Frank_Herbert_%281976%29_First_edition.jpg"
+  },
+  {
+    "id": 54,
+    "title": "Foundation",
+    "author": "Isaac Asimov",
+    "rating": 4.2,
+    "synopsis": "A group of scientists and scholars work to preserve knowledge and culture in the face of a collapsing galactic empire.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/2/25/Foundation_gnome.jpg"
+  },
+  {
+    "id": 55,
+    "title": "Foundation and Empire",
+    "author": "Isaac Asimov",
+    "rating": 4.2,
+    "synopsis": "The Foundation faces new threats from the remnants of the old empire and a mysterious new force known as the Mule.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/1/1e/Foundation_and_Empire.jpg"
+  },
+  {
+    "id": 56,
+    "title": "Second Foundation",
+    "author": "Isaac Asimov",
+    "rating": 4.3,
+    "synopsis": "Following the fall of the First Foundation, the Mule searches for the elusive Second Foundation to destroy it. Meanwhile, a young girl named Arkady Darell holds a secret that could change the fate of the galaxy.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/1/1e/Foundation_and_Empire.jpg"
+  },
+  {
+    "id": 57,
+    "title": "I, Robot",
+    "author": "Isaac Asimov",
+    "rating": 4.3,
+    "synopsis": "A collection of short stories exploring the interactions between humans and robots, governed by Asimov's Three Laws of Robotics.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/45/I_Robot_-_Runaround.jpg"
+  },
+  {
+    "id": 58,
+    "title": "Good Omens",
+    "author": "Neil Gaiman & Terry Pratchett",
+    "rating": 4.3,
+    "synopsis": "An angel and a demon team up to prevent the apocalypse, forming an unlikely alliance to find the missing Antichrist and stop Armageddon.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/4f/GoodOmensCover.jpg"
+  },
+  {
+    "id": 59,
+    "title": "American Gods",
+    "author": "Neil Gaiman",
+    "rating": 4.3,
+    "synopsis": "Ex-convict Shadow Moon roams a world he doesn't understand, left adrift by the recent, tragic death of his wife. His life changes after meeting Mr. Wednesday, who offers him a job as his bodyguard.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/0b/American_Gods.jpg"
+  },
+  {
+    "id": 60,
+    "title": "Neverwhere",
+    "author": "Neil Gaiman",
+    "rating": 4.3,
+    "synopsis": "Richard Mayhew's life changes after helping a bleeding girl named Door, leading him into the dangers and wonders of London Below.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/4b/Neverwhere.jpg"
+  },
+  {
+    "id": 61,
+    "title": "Coraline",
+    "author": "Neil Gaiman",
+    "rating": 4.3,
+    "synopsis": "Coraline discovers a secret door in her new home that leads to an alternate world, which closely mirrors her own but is sinister and dangerous.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/6/6f/Coraline.jpg"
+  },
+  {
+    "id": 62,
+    "title": "The Night Circus",
+    "author": "Erin Morgenstern",
+    "rating": 4.4,
+    "synopsis": "A magical realism story about a mysterious circus and a duel between two magicians.",
+    "image": "data:image/jpeg;base64,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"
+  },
+  {
+    "id": 63,
+    "title": "A Game of Thrones",
+    "author": "George R.R. Martin",
+    "rating": 4.9,
+    "synopsis": "An epic fantasy of political intrigue and war in a fictional medieval world.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/9/93/AGameOfThrones.jpg"
+  },
+  {
+    "id": 64,
+    "title": "Animal Farm",
+    "author": "George Orwell",
+    "rating": 4.3,
+    "synopsis": "A satirical allegory about power and corruption on a farm run by animals.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/0c/Animal_Farm_-_1st_edition.jpg"
+  },
+  {
+    "id": 65,
+    "title": "Lord of the Flies",
+    "author": "William Golding",
+    "rating": 4.2,
+    "synopsis": "A dark tale of boys stranded on an island descending into savagery.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/9/9c/LordOfTheFliesBookCover.jpg"
+  },
+  {
+    "id": 66,
+    "title": "Of Mice and Men",
+    "author": "John Steinbeck",
+    "rating": 4.4,
+    "synopsis": "A poignant story of friendship and dreams during the Great Depression.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/1/1e/Of_Mice_and_Men_%281937_1st_ed_dust_jacket%29.jpg"
+  },
+  {
+    "id": 67,
+    "title": "The Old Man and the Sea",
+    "author": "Ernest Hemingway",
+    "rating": 4.1,
+    "synopsis": "A tale of an aging fisherman’s struggle with a giant marlin.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/7/73/Oldmansea.jpg"
+  },
+  {
+    "id": 68,
+    "title": "A Farewell to Arms",
+    "author": "Ernest Hemingway",
+    "rating": 4.3,
+    "synopsis": "A love story set against the backdrop of World War I.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/48/Hemingway_farewell.png"
+  },
+  {
+    "id": 69,
+    "title": "The Sun Also Rises",
+    "author": "Ernest Hemingway",
+    "rating": 4.2,
+    "synopsis": "A journey of disillusioned expatriates in post-war Europe.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/9/95/TheSunAlsoRises.jpg"
+  },
+  {
+    "id": 70,
+    "title": "Great Expectations",
+    "author": "Charles Dickens",
+    "rating": 4.5,
+    "synopsis": "A coming-of-age story of an orphan navigating love and wealth.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Great_Expectations_%281861%2C_first_edition%2C_volume_1%2C_cover%29.jpg"
+  },
+  {
+    "id": 71,
+    "title": "A Tale of Two Cities",
+    "author": "Charles Dickens",
+    "rating": 4.6,
+    "synopsis": "A historical novel set during the French Revolution.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/A_Tale_of_Two_Cities_%281859%2C_first_edition%2C_cover%29.jpg"
+  },
+  {
+    "id": 72,
+    "title": "Oliver Twist",
+    "author": "Charles Dickens",
+    "rating": 4.4,
+    "synopsis": "The hardships of an orphan in Victorian London.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Oliver_Twist_1838_edition_cover.jpg"
+  },
+  {
+    "id": 73,
+    "title": "A Clash of Kings",
+    "author": "George R.R. Martin",
+    "rating": 4.8,
+    "synopsis": "A continuation of the epic struggle for the Iron Throne.",
+    "image": "https://images.penguinrandomhouse.com/cover/9780553108033"
+  },
+  {
+    "id": 74,
+    "title": "A Storm of Swords",
+    "author": "George R.R. Martin",
+    "rating": 4.9,
+    "synopsis": "A brutal chapter in the war for Westeros.",
+    "image": "https://images.penguinrandomhouse.com/cover/9780553106633"
+  },
+  {
+    "id": 75,
+    "title": "A Feast for Crows",
+    "author": "George R.R. Martin",
+    "rating": 4.7,
+    "synopsis": "A slower-paced tale of aftermath and intrigue in Westeros.",
+    "image": "https://images.penguinrandomhouse.com/cover/9780553801507"
+  },
+  {
+    "id": 76,
+    "title": "A Dance with Dragons",
+    "author": "George R.R. Martin",
+    "rating": 4.8,
+    "synopsis": "A sprawling narrative of dragons and distant lands.",
+    "image": "https://images.penguinrandomhouse.com/cover/9780553801477"
+  },
+  {
+    "id": 77,
+    "title": "The Fault in Our Stars",
+    "author": "John Green",
+    "rating": 4.5,
+    "synopsis": "A heartfelt story of love and illness among teens.",
+    "image": "https://images.penguinrandomhouse.com/cover/9780525478812"
+  },
+  {
+    "id": 78,
+    "title": "Looking for Alaska",
+    "author": "John Green",
+    "rating": 4.3,
+    "synopsis": "A teen’s journey of self-discovery at boarding school.",
+    "image": "https://images.penguinrandomhouse.com/cover/9780142402511"
+  },
+  {
+    "id": 79,
+    "title": "The Giver",
+    "author": "Lois Lowry",
+    "rating": 4.4,
+    "synopsis": "A dystopian tale of memory and conformity.",
+    "image": "https://images.hmhco.com/images/cover/9780544336261.jpg"
+  },
+  {
+    "id": 80,
+    "title": "Charlotte's Web",
+    "author": "E.B. White",
+    "rating": 4.6,
+    "synopsis": "A charming story of friendship between a pig and a spider.",
+    "image": "https://images.harpercollins.com/harperimages/isbn/large/3/9780060263850.jpg"
+  },
+  {
+    "id": 81,
+    "title": "Matilda",
+    "author": "Roald Dahl",
+    "rating": 4.7,
+    "synopsis": "A gifted girl uses her powers to overcome neglect.",
+    "image": "https://images.penguinrandomhouse.com/cover/9780142410370"
+  },
+  {
+    "id": 82,
+    "title": "Charlie and the Chocolate Factory",
+    "author": "Roald Dahl",
+    "rating": 4.8,
+    "synopsis": "A whimsical adventure inside a magical candy factory.",
+    "image": "https://images.penguinrandomhouse.com/cover/9780142401088"
+  },
+  {
+    "id": 83,
+    "title": "The Lion King",
+    "author": "Disney",
+    "rating": 4.5,
+    "synopsis": "A young lion’s journey to reclaim his kingdom.",
+    "image": "https://images.penguinrandomhouse.com/cover/9780736420952"
+  },
+  {
+    "id": 84,
+    "title": "The Little Prince",
+    "author": "Antoine de Saint-Exupéry",
+    "rating": 4.7,
+    "synopsis": "A philosophical tale of a prince exploring the universe.",
+    "image": "https://images.hmhco.com/images/cover/9780156012195.jpg"
+  },
+  {
+    "id": 85,
+    "title": "Where the Wild Things Are",
+    "author": "Maurice Sendak",
+    "rating": 4.6,
+    "synopsis": "A boy’s imaginative journey to a land of wild creatures.",
+    "image": "https://images.harpercollins.com/harperimages/isbn/large/6/9780060254926.jpg"
+  },
+  {
+    "id": 86,
+    "title": "The Secret Garden",
+    "author": "Frances Hodgson Burnett",
+    "rating": 4.5,
+    "synopsis": "A girl discovers a hidden garden and heals her family.",
+    "image": "https://images.penguinrandomhouse.com/cover/9780142437018"
+  },
+  {
+    "id": 87,
+    "title": "Anne of Green Gables",
+    "author": "L.M. Montgomery",
+    "rating": 4.7,
+    "synopsis": "An orphan girl brings joy to her adoptive family.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/8/82/Anne_of_Green_Gables_%281908%2C_first_edition_cover%29.jpg"
+  },
+  {
+    "id": 88,
+    "title": "The Diary of a Young Girl",
+    "author": "Anne Frank",
+    "rating": 4.8,
+    "synopsis": "A Jewish girl’s account of hiding during World War II.",
+    "image": "https://images.penguinrandomhouse.com/cover/9780553577129"
+  },
+  {
+    "id": 89,
+    "title": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "rating": 4.9,
+    "synopsis": "An exploration of human history and evolution.",
+    "image": "https://images.harpercollins.com/harperimages/isbn/large/4/9780062316097.jpg"
+  },
+  {
+    "id": 90,
+    "title": "Educated",
+    "author": "Tara Westover",
+    "rating": 4.7,
+    "synopsis": "A memoir of a woman’s journey from isolation to education.",
+    "image": "https://images.penguinrandomhouse.com/cover/9780399590504"
+  },
+  {
+    "id": 91,
+    "title": "Becoming",
+    "author": "Michelle Obama",
+    "rating": 4.8,
+    "synopsis": "A former First Lady’s story of life and growth.",
+    "image": "https://images.penguinrandomhouse.com/cover/9781524763138"
+  },
+  {
+    "id": 92,
+    "title": "The Martian",
+    "author": "Andy Weir",
+    "rating": 4.6,
+    "synopsis": "A stranded astronaut’s survival on Mars.",
+    "image": "https://images.penguinrandomhouse.com/cover/9780804139021"
+  },
+  {
+    "id": 93,
+    "title": "Project Hail Mary",
+    "author": "Andy Weir",
+    "rating": 4.7,
+    "synopsis": "A lone astronaut’s mission to reverse solar dimming.",
+    "image": "https://images.penguinrandomhouse.com/cover/9780593135204"
+  },
+  {
+    "id": 94,
+    "title": "Good Omens",
+    "author": "Neil Gaiman and Terry Pratchett",
+    "rating": 4.5,
+    "synopsis": "A comedic take on the apocalypse by an angel and demon.",
+    "image": "https://images.harpercollins.com/harperimages/isbn/large/9/9780060853969.jpg"
+  },
+  {
+    "id": 95,
+    "title": "The Night Circus",
+    "author": "Erin Morgenstern",
+    "rating": 4.4,
+    "synopsis": "A duplicate entry of a magical circus tale.",
+    "image": "https://images.penguinrandomhouse.com/cover/9780385534635"
+  },
+  {
+    "id": 96,
+    "title": "Don Quixote",
+    "author": "Miguel de Cervantes",
+    "rating": 4.5,
+    "synopsis": "A delusional knight’s adventures in Spain.",
+    "image": "https://images.penguinrandomhouse.com/cover/9780142437230"
+  },
+  {
+    "id": 97,
+    "title": "Frankenstein",
+    "author": "Mary Shelley",
+    "rating": 4.6,
+    "synopsis": "A scientist creates a monster with tragic consequences.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/94/Frankenstein_1818_edition_title_page.jpg"
+  },
+  {
+    "id": 98,
+    "title": "Dracula",
+    "author": "Bram Stoker",
+    "rating": 4.4,
+    "synopsis": "A vampire’s reign of terror in Victorian England.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Dracula_1st_ed_cover_-_Project_Gutenberg_eBook.jpg"
+  },
+  {
+    "id": 99,
+    "title": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "rating": 4.5,
+    "synopsis": "A man’s portrait ages while he remains youthful.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/The_Picture_of_Dorian_Gray_1891_edition_cover.jpg"
+  },
+  {
+    "id": 100,
+    "title": "The Adventures of Huckleberry Finn",
+    "author": "Mark Twain",
+    "rating": 4.6,
+    "synopsis": "A boy’s journey down the Mississippi River.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Huckfinn.jpg"
+  },
+  {
+    "id": 101,
+    "title": "The Adventures of Tom Sawyer",
+    "author": "Mark Twain",
+    "rating": 4.4,
+    "synopsis": "A mischievous boy’s escapades in a small town.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/47/The_Adventures_of_Tom_Sawyer_%281876%2C_first_edition%2C_cover%29.jpg"
+  },
+  {
+    "id": 102,
+    "title": "Treasure Island",
+    "author": "Robert Louis Stevenson",
+    "rating": 4.5,
+    "synopsis": "A young boy’s pirate adventure for buried treasure.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Treasure_Island_1883_first_edition_cover.jpg"
+  },
+  {
+    "id": 103,
+    "title": "The Strange Case of Dr Jekyll and Mr Hyde",
+    "author": "Robert Louis Stevenson",
+    "rating": 4.3,
+    "synopsis": "A scientist’s split personality unleashes evil.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Strange_Case_of_Dr_Jekyll_and_Mr_Hyde_1886.jpg"
+  },
+  {
+    "id": 104,
+    "title": "Gulliver's Travels",
+    "author": "Jonathan Swift",
+    "rating": 4.2,
+    "synopsis": "A satirical journey to fantastical lands.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/86/Gullivers_Travels_1726_edition_cover.jpg"
+  },
+  {
+    "id": 105,
+    "title": "The Count of Monte Cristo",
+    "author": "Alexandre Dumas",
+    "rating": 4.8,
+    "synopsis": "A man’s revenge after wrongful imprisonment.",
+    "image": "https://images.penguinrandomhouse.com/cover/9780140449266"
+  },
+  {
+    "id": 106,
+    "title": "The Three Musketeers",
+    "author": "Alexandre Dumas",
+    "rating": 4.6,
+    "synopsis": "Swashbuckling adventures of loyalty and honor.",
+    "image": "https://images.penguinrandomhouse.com/cover/9780143105008"
+  },
+  {
+    "id": 107,
+    "title": "Les Misérables",
+    "author": "Victor Hugo",
+    "rating": 4.9,
+    "synopsis": "A tale of redemption amid poverty and revolution.",
+    "image": "https://images.penguinrandomhouse.com/cover/9780143107569"
+  },
+  {
+    "id": 108,
+    "title": "The Hunchback of Notre-Dame",
+    "author": "Victor Hugo",
+    "rating": 4.5,
+    "synopsis": "A tragic love story set in medieval Paris.",
+    "image": "https://images.penguinrandomhouse.com/cover/9780140443530"
+  },
+  {
+    "id": 109,
+    "title": "Slaughterhouse-Five",
+    "author": "Kurt Vonnegut",
+    "rating": 4.4,
+    "synopsis": "A surreal anti-war novel with time travel.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/3/37/Slaughterhouse-Five_%281969%2C_first_edition%29_book_cover.jpg"
+  },
+  {
+    "id": 110,
+    "title": "Cat's Cradle",
+    "author": "Kurt Vonnegut",
+    "rating": 4.3,
+    "synopsis": "A satirical look at science and human folly.",
+    "image": "https://images.penguinrandomhouse.com/cover/9780385333481"
+  },
+  {
+    "id": 111,
+    "title": "The Handmaid's Tale",
+    "author": "Margaret Atwood",
+    "rating": 4.7,
+    "synopsis": "A dystopian story of women’s oppression.",
+    "image": "https://images.penguinrandomhouse.com/cover/9780385490818"
+  },
+  {
+    "id": 112,
+    "title": "One Hundred Years of Solitude",
+    "author": "Gabriel García Márquez",
+    "rating": 4.9,
+    "synopsis": "A magical realist saga of a family’s legacy.",
+    "image": "https://images.harpercollins.com/harperimages/isbn/large/0/9780060883287.jpg"
+  },
+  {
+    "id": 113,
+    "title": "Love in the Time of Cholera",
+    "author": "Gabriel García Márquez",
+    "rating": 4.6,
+    "synopsis": "A tale of enduring love across decades.",
+    "image": "https://images.penguinrandomhouse.com/cover/9780307389732"
+  },
+  {
+    "id": 114,
+    "title": "The Name of the Wind",
+    "author": "Patrick Rothfuss",
+    "rating": 4.8,
+    "synopsis": "A wizard’s memoir of magic and adventure.",
+    "image": "https://images.penguinrandomhouse.com/cover/9780756404079"
+  }
+]

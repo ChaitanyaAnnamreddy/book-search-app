@@ -12,6 +12,7 @@ import { useRouter } from "next/navigation";
 import { Card } from "antd";
 import StarIcon from "@mui/icons-material/Star";
 import StarBorderIcon from "@mui/icons-material/StarBorder";
+import { API_BASE_URL, API_ADD_BOOK_URL } from "@/lib/constants";
 
 export default function AddBook() {
   const [title, setTitle] = useState("");
@@ -33,7 +34,7 @@ export default function AddBook() {
 
   const fetchBooks = async () => {
     try {
-      const res = await fetch("/api/books");
+      const res = await fetch(API_BASE_URL, { cache: "no-store" });
       const data = await res.json();
       if (data.error) {
         throw new Error(data.error);
@@ -89,7 +90,7 @@ export default function AddBook() {
     const newId =
       books.length > 0 ? Math.max(...books.map((book) => book.id)) + 1 : 1;
 
-    const res = await fetch("/api/add-book", {
+    const res = await fetch(API_ADD_BOOK_URL, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -118,6 +119,7 @@ export default function AddBook() {
         rating: null,
         synopsis: null,
       });
+      setTimeout(() => router.push("/"), 2000);
     } else {
       setSnackbarMessage("Error adding book");
       setSnackbarSeverity("error");

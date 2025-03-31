@@ -2,9 +2,9 @@ import { NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
 
-const filePath = path.join(process.cwd(), "data/books.json");
+const filePath = path.join(process.cwd(), "src", "data", "books.json");
 
-export async function GET(req) {
+export async function GET() {
   try {
     const fileContents = fs.readFileSync(filePath, "utf-8");
     const books = JSON.parse(fileContents);

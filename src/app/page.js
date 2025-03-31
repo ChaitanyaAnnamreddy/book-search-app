@@ -1,4 +1,5 @@
 "use client";
+
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { SearchOff, Close as CloseIcon } from "@mui/icons-material";
@@ -30,71 +31,10 @@ import {
   KeyboardArrowRight,
 } from "@mui/icons-material";
 import AddIcon from "@mui/icons-material/Add";
-import { useTheme } from "@mui/material/styles";
 import { fetchBooks } from "../lib/bookService";
+import TablePaginationActions from "../app/components/TablePaginationActions";
 
-function TablePaginationActions(props) {
-  const theme = useTheme();
-  const { count, page, rowsPerPage, onPageChange } = props;
-
-  const handleFirstPageButtonClick = (event) => {
-    onPageChange(event, 0);
-  };
-
-  const handleBackButtonClick = (event) => {
-    onPageChange(event, page - 1);
-  };
-
-  const handleNextButtonClick = (event) => {
-    onPageChange(event, page + 1);
-  };
-
-  const handleLastPageButtonClick = (event) => {
-    onPageChange(event, Math.max(0, Math.ceil(count / rowsPerPage) - 1));
-  };
-
-  return (
-    <Box sx={{ flexShrink: 0, ml: 2.5 }}>
-      <IconButton
-        onClick={handleFirstPageButtonClick}
-        disabled={page === 0}
-        aria-label="first page"
-      >
-        {theme.direction === "rtl" ? <LastPageIcon /> : <FirstPageIcon />}
-      </IconButton>
-      <IconButton
-        onClick={handleBackButtonClick}
-        disabled={page === 0}
-        aria-label="previous page"
-      >
-        {theme.direction === "rtl" ? (
-          <KeyboardArrowRight />
-        ) : (
-          <KeyboardArrowLeft />
-        )}
-      </IconButton>
-      <IconButton
-        onClick={handleNextButtonClick}
-        disabled={page >= Math.ceil(count / rowsPerPage) - 1}
-        aria-label="next page"
-      >
-        {theme.direction === "rtl" ? (
-          <KeyboardArrowLeft />
-        ) : (
-          <KeyboardArrowRight />
-        )}
-      </IconButton>
-      <IconButton
-        onClick={handleLastPageButtonClick}
-        disabled={page >= Math.ceil(count / rowsPerPage) - 1}
-        aria-label="last page"
-      >
-        {theme.direction === "rtl" ? <FirstPageIcon /> : <LastPageIcon />}
-      </IconButton>
-    </Box>
-  );
-}
-
+// Main component for the Book Search Application
 export default function Home() {
   const [query, setQuery] = useState(null);
   const [allBooks, setAllBooks] = useState([]);
@@ -106,88 +46,97 @@ export default function Home() {
   const [sortConfig, setSortConfig] = useState({ key: null, direction: "asc" });
 
   const router = useRouter();
-  const theme = useTheme();
 
+  // Fetches book data when the component mounts
   useEffect(() => {
+    // Async function to fetch books from the bookService
     const fetchBookData = async () => {
-      setLoading(true);
+      setLoading(true); // Sets loading state to true while fetching
       try {
-        const books = await fetchBooks();
+        const books = await fetchBooks(); // Calls external service to get book data
         if (books) {
-          setAllBooks(books);
-          setFilteredBooks(books);
+          setAllBooks(books); // Stores all books in state
+          setFilteredBooks(books); // Initializes filtered books with all books
         }
       } catch (err) {
         console.error("Error fetching books:", err);
-        setError("Failed to fetch books");
+        setError("Failed to fetch books"); // Sets error message if fetch fails
       }
-      setLoading(false);
+      setLoading(false); // Sets loading state to false after fetch completes
     };
 
-    fetchBookData();
-  }, []); 
+    fetchBookData(); // Invokes the fetch function
+  }, []); // Empty dependency array ensures this runs only on mount
 
+  // Filters books based on the search query
   const handleSearch = () => {
     if (!query.trim()) {
-      setFilteredBooks(allBooks);
-      setPage(0);
+      setFilteredBooks(allBooks); // Resets to all books if query is empty
+      setPage(0); // Resets pagination to the first page
       return;
     }
-    const filtered = allBooks.filter((book) =>
-      book.title.toLowerCase().includes(query.toLowerCase())
+    const filtered = allBooks.filter(
+      (book) => book.title.toLowerCase().includes(query.toLowerCase()) // Case-insensitive title search
     );
-    setFilteredBooks(filtered);
-    setPage(0);
+    setFilteredBooks(filtered); // Updates filtered books state
+    setPage(0); // Resets pagination to the first page
   };
 
+  // Triggers search when the Enter key is pressed
   const handleKeyPress = (event) => {
     if (event.key === "Enter") {
-      handleSearch();
+      handleSearch(); // Calls the search function
     }
   };
 
+  // Updates the query state as the user types
   const handleChange = (event) => {
-    setQuery(event.target.value);
+    setQuery(event.target.value); // Updates query state with input value
     if (!event.target.value.trim()) {
-      setFilteredBooks(allBooks);
-      setPage(0);
+      setFilteredBooks(allBooks); // Resets to all books if input is cleared
+      setPage(0); // Resets pagination to the first page
     }
   };
 
+  // Clears the search query and resets the book list
   const handleClear = () => {
-    setQuery("");
-    setFilteredBooks(allBooks);
-    setPage(0);
+    setQuery(""); // Clears the query input
+    setFilteredBooks(allBooks); // Resets filtered books to all books
+    setPage(0); // Resets pagination to the first page
   };
 
+  // Changes the current page in the pagination
   const handlePageChange = (_, newPage) => {
-    setPage(newPage);
+    setPage(newPage); // Updates the page state to the new page number
   };
 
+  // Updates the number of rows per page and resets to the first page
   const handleRowsPerPageChange = (event) => {
-    setRowsPerPage(parseInt(event.target.value, 10));
-    setPage(0);
+    setRowsPerPage(parseInt(event.target.value, 10)); // Updates rows per page
+    setPage(0); // Resets pagination to the first page
   };
 
+  // Sorts the book list based on the selected column (title, author, rating)
   const handleSort = (key) => {
-    let direction = "asc";
+    let direction = "asc"; // Default sort direction is ascending
     if (sortConfig.key === key && sortConfig.direction === "asc") {
-      direction = "desc";
+      direction = "desc"; // Toggles to descending if already ascending
     }
-    setSortConfig({ key, direction });
+    setSortConfig({ key, direction }); // Updates sort configuration
 
     const sortedBooks = [...filteredBooks].sort((a, b) => {
       if (a[key] < b[key]) {
-        return direction === "asc" ? -1 : 1;
+        return direction === "asc" ? -1 : 1; // Sorts ascending or descending
       }
       if (a[key] > b[key]) {
-        return direction === "asc" ? 1 : -1;
+        return direction === "asc" ? 1 : -1; // Sorts ascending or descending
       }
-      return 0;
+      return 0; // No change if equal
     });
-    setFilteredBooks(sortedBooks);
+    setFilteredBooks(sortedBooks); // Updates the filtered books with sorted data
   };
 
+  // Render the UI
   return (
     <Container maxWidth="lg">
       <Typography
@@ -259,7 +208,7 @@ export default function Home() {
 
         <Button
           variant="contained"
-          onClick={() => router.push("/add-book")}
+          onClick={() => router.push("/books/add")}
           size="small"
           startIcon={<AddIcon />}
           sx={{ width: { xs: "30%", sm: "auto" } }}
@@ -342,7 +291,7 @@ export default function Home() {
                     key={book.id}
                     hover
                     onClick={() =>
-                      router.push(`/book/${encodeURIComponent(book.id)}`)
+                      router.push(`/books/${encodeURIComponent(book.id)}`)
                     }
                     sx={{ cursor: "pointer" }}
                   >
