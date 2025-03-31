@@ -92,8 +92,20 @@ export default function AddBook() {
       return;
     }
 
-    // Generate a unique ID for the new book
+    // Fetch existing books to check for duplicates
     const books = await fetchBooks();
+    const existingBook = books.find(
+      (book) => book.title.toLowerCase() === title.toLowerCase()
+    );
+
+    if (existingBook) {
+      setSnackbarMessage("A book with this title already exists");
+      setSnackbarSeverity("error");
+      setOpenSnackbar(true);
+      return;
+    }
+
+    // Generate a unique ID for the new book
     const newId =
       books.length > 0 ? Math.max(...books.map((book) => book.id)) + 1 : 1;
 

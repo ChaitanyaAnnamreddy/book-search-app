@@ -51,7 +51,7 @@
     "id": 7,
     "title": "The Catcher in the Rye",
     "author": "J.D. Salinger",
-    "rating": 4.0,
+    "rating": 4,
     "synopsis": "The novel follows Holden Caulfield, a teenager who has just been expelled from his prep school. Disillusioned and struggling with the phoniness of the adult world, Holden recounts his experiences over a few days in New York City, revealing his inner turmoil and quest for authenticity.",
     "image": "https://images.penguinrandomhouse.com/cover/9780140447937"
   },
@@ -83,7 +83,7 @@
     "id": 11,
     "title": "Wuthering Heights",
     "author": "Emily Brontë",
-    "rating": 4.0,
+    "rating": 4,
     "synopsis": "The passionate and tumultuous love story of Heathcliff and Catherine Earnshaw unfolds on the Yorkshire moors. Their intense relationship, marked by obsession and revenge, affects everyone around them, leading to a cycle of suffering and tragedy that spans generations.",
     "image": "https://images.penguinrandomhouse.com/cover/9780140447937"
   },
@@ -211,7 +211,7 @@
     "id": 27,
     "title": "The Da Vinci Code",
     "author": "Dan Brown",
-    "rating": 4.0,
+    "rating": 4,
     "synopsis": "Robert Langdon, a Harvard symbologist, becomes the prime suspect in the murder of Louvre curator Jacques Saunière. With the help of cryptologist Sophie Neveu, Langdon uncovers a secret that could shake the foundations of Christianity.",
     "image": "https://images.penguinrandomhouse.com/cover/9780307474278"
   },
@@ -379,7 +379,7 @@
     "id": 48,
     "title": "The Maze Runner",
     "author": "James Dashner",
-    "rating": 4.0,
+    "rating": 4,
     "synopsis": "Thomas wakes up in a mysterious maze with no memory of his past and must work with other boys to find a way out and uncover the truth about their situation.",
     "image": "https://upload.wikimedia.org/wikipedia/en/d/db/The_Maze_Runner_cover.png"
   },
@@ -387,7 +387,7 @@
     "id": 49,
     "title": "The Scorch Trials",
     "author": "James Dashner",
-    "rating": 4.0,
+    "rating": 4,
     "synopsis": "Thomas and his friends face new challenges in a post-apocalyptic world as they search for answers and a way to survive.",
     "image": "https://images.penguinrandomhouse.com/cover/9780430000000"
   },
@@ -395,7 +395,7 @@
     "id": 50,
     "title": "The Death Cure",
     "author": "James Dashner",
-    "rating": 4.0,
+    "rating": 4,
     "synopsis": "Thomas and his friends must navigate a deadly maze of trials to find a cure for the Flare virus and save humanity.",
     "image": "https://images.penguinrandomhouse.com/cover/9780430000000"
   },
@@ -907,8 +907,8 @@
     "id": 114,
     "title": "The Name of the Wind",
     "author": "Patrick Rothfuss",
-    "rating": 4.8,
-    "synopsis": "A wizard’s memoir of magic and adventure.",
-    "image": "https://images.penguinrandomhouse.com/cover/9780756404079"
+    "image": "https://images.penguinrandomhouse.com/cover/9780756404079",
+    "rating": "4.8",
+    "synopsis": "A wizard’s memoir of magic and adventure."
   }
 ]
