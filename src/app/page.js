@@ -237,8 +237,8 @@ export default function Home() {
                     )}
                   </IconButton>
                 </Box>
-              </TableCell>
-              <TableCell>
+              </TableCell> 
+              <TableCell sx={{ width: "30%" }}>
                 <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
                   <strong>Author</strong>
                   <IconButton onClick={() => handleSort("author")} size="small">
@@ -251,7 +251,7 @@ export default function Home() {
                   </IconButton>
                 </Box>
               </TableCell>
-              <TableCell>
+              <TableCell sx={{ width: "20%" }}>
                 <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
                   <strong>Rating</strong>
                   <IconButton onClick={() => handleSort("rating")} size="small">
